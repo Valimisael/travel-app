@@ -1,0 +1,32 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+  font-size: $font-size;
+  -ms-overflow-style: auto;
+  scrollbar-width: thin;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  outline: none;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100%;
+  font-size: $font-size;
+  line-height: 1;
+  -webkit-font-smoothing: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+}
+
+strong {
+  font-weight: bold;
+}
