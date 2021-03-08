@@ -1,13 +1,13 @@
 import React from 'react';
 import '../css/vendor/reset.css';
+import '../css/vendor/fontello.css'
 import '../css/main.scss';
+import TravelApp from './TravelApp';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <h1>Travel App</h1>
+      <TravelApp />
     </div>
   );
 }
-
-export default App;

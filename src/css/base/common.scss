@@ -17,10 +17,16 @@ body {
   min-width: 320px;
   min-height: 100%;
   font-size: $font-size;
+  background-color: $color-white;
   line-height: 1;
   -webkit-font-smoothing: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: $font-family;
+}
+
+main {
+  min-height: calc(100vh - 240px);
 }
 
 a {
