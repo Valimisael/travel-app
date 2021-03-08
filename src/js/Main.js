@@ -17,7 +17,7 @@ const countries = [
   },
   {
     src: brazil,
-    country: 'Australia',
+    country: 'Brazil',
     capital: 'Brasília',
     url: '/',
   },
