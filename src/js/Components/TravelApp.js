@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './Header';
 import Main from './Main';
 import Footer from './Footer';
+import Country from './Country';
 
 export default class TravelApp extends React.Component {
   constructor(props) {
@@ -14,7 +15,8 @@ export default class TravelApp extends React.Component {
     return (
       <div className="wrapper">
         <Header settings={this.settings} updateState={this.updateState}/>
-        <Main settings={this.settings}/>
+        {/* <Main settings={this.settings}/> */}      
+        <Country />
         <Footer />
       </div>
     )

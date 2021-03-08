@@ -1,0 +1,32 @@
+.country {
+  &__wrapper {
+    display: flex;
+    flex-direction: column;  
+  
+    @media (min-width: 768px) {
+      flex-direction: row;
+    }
+  }
+
+  &__info {
+    width: 100%;
+  
+    @media (min-width: 768px) {
+      width: 70%;
+    }
+  }
+
+  &__widgets {
+    width: 100%;
+  
+    @media (min-width: 768px) {
+      width: 30%;
+    }
+  }
+
+  &__title {
+    color: $color-orange;
+    font-size: $font-size-68;
+    margin-bottom: 20px;
+  }
+}
