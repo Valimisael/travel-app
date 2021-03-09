@@ -16,7 +16,7 @@ export default class TravelApp extends React.Component {
       <div className="wrapper">
         <Header settings={this.settings} updateState={this.updateState}/>
         {/* <Main settings={this.settings}/> */}      
-        <Country />
+        <Country settings={this.settings}/>
         <Footer />
       </div>
     )
