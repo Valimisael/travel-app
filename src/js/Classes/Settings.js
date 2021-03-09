@@ -1,4 +1,4 @@
-import { defaultLanguage, header } from '../Data/data';
+import { defaultLanguage, common } from '../Data/data';
 
 export default class Settings {
     constructor() {
@@ -16,8 +16,8 @@ export default class Settings {
     }
 
     updateLang(lang) {
-        const indexLang = header[this.lang].languages.indexOf(lang);
-        const langList = Object.keys(header);
+        const indexLang = common[this.lang].languages.indexOf(lang);
+        const langList = Object.keys(common);
         this.lang = langList[indexLang];
         localStorage.setItem('lang', this.lang);
     }

@@ -5,15 +5,15 @@ export default class TranslateGallery{
     }
 
     init(gallery, lang) {
-        gallery.map(element => {
+        this.gallery = gallery.map(element => {
             const {original, thumbnail} = element;
             const {description, thumbnailLabel} = element.translations[lang];
-            this.gallery.push({
+            return {
                 original: original,
                 thumbnail: thumbnail,
                 description: description,
                 thumbnailLabel: thumbnailLabel
-            })
+            }
         });
     }
 
