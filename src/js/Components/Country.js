@@ -1,6 +1,7 @@
 import React from 'react';
 import { common } from '../Data/data';
 import Gallery from './Gallery';
+import { Player, BigPlayButton } from 'video-react';
 
 export default class Country extends React.Component {
   constructor(props) {
@@ -31,6 +32,12 @@ export default class Country extends React.Component {
             <div className="country__gallery">
               <h2 className="country__title">{`${country.translations[lang].country} ${data.inPhotos}`}</h2>
               <Gallery images={country.gallery} settings={this.settings}/>
+            </div>
+            <div className="country__video">
+              <h2 className="country__title">{data.video}</h2>           
+              <Player playsInline poster={country.poster} src={country.video}>
+                <BigPlayButton position="center" />
+              </Player>
             </div>
           </div>
           <div className="country__widgets"></div>
