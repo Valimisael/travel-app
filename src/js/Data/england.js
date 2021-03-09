@@ -15,7 +15,7 @@ const englandGallery = [
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       ru: {
-        thumbnailLabel: 'London Eye',
+        thumbnailLabel: 'Лондонский глаз',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       se: {
@@ -33,7 +33,7 @@ const englandGallery = [
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       ru: {
-        thumbnailLabel: 'Биг Бен',
+        thumbnailLabel: 'Биг-Бен',
         description: 'Лорем ипсум).'
       },
       se: {
@@ -65,11 +65,11 @@ const englandGallery = [
     thumbnail: tower,
     translations: {
       en: {
-        thumbnailLabel: 'Tower',
+        thumbnailLabel: 'Tower of London',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       ru: {
-        thumbnailLabel: 'Tower',
+        thumbnailLabel: 'Лондонский Тауэр',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       se: {
@@ -87,11 +87,11 @@ const englandGallery = [
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       ru: {
-        thumbnailLabel: 'Bridge of Tower',
+        thumbnailLabel: 'Тауэрский мост',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       se: {
-        thumbnailLabel: 'Bridge of Tower',
+        thumbnailLabel: 'Bro av Tornet',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
     }
@@ -105,7 +105,7 @@ const englandGallery = [
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       ru: {
-        thumbnailLabel: 'Westminster Abbey',
+        thumbnailLabel: 'Вестминстерское аббатство',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       se: {
