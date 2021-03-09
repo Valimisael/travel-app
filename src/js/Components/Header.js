@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../../img/logo.png';
 import { header} from '../Data/data';
+import {NavLink} from 'react-router-dom';
 
 export default class Header extends React.Component {
   constructor(props) {
@@ -28,9 +29,9 @@ export default class Header extends React.Component {
     
     return (
       <header className="header">
-        <a href="/" className="header__item logo">
+        <NavLink to="/" className="header__item logo">
           <img className="logo__image" alt="Logo" src={logo} />
-        </a>
+        </NavLink>
         <div className="settings">
           <div className="header__item search">
             <div className="search__field">

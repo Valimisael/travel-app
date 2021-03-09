@@ -47,7 +47,8 @@ const header = {
 const countries = [
     {
       src: australia,
-      url: '/',
+      url: '/australia',
+      gallery: englandGallery,
       translations: {
         en: {
           country: 'Australia',
@@ -65,7 +66,8 @@ const countries = [
     },
     {
       src: brazil,
-      url: '/',
+      url: '/brazil',
+      gallery: englandGallery,
       translations: {
         en: {
           country: 'Brazil',
@@ -83,7 +85,7 @@ const countries = [
     },
     {
       src: england,
-      url: '/',
+      url: '/great-britain',
       gallery: englandGallery,
       translations: {
         en: {
@@ -105,7 +107,8 @@ const countries = [
     },
     {
       src: greece,
-      url: '/',
+      url: '/greece',
+      gallery: englandGallery,
       translations: {
         en: {
           country: 'Greece',
@@ -123,7 +126,8 @@ const countries = [
     },
     {
       src: japan,
-      url: '/',
+      url: '/japan',
+      gallery: englandGallery,
       translations: {
         en: {
           country: 'Japan',
@@ -141,7 +145,8 @@ const countries = [
     },
     {
       src: russia,
-      url: '/',
+      url: '/russia',
+      gallery: englandGallery,
       translations: {
         en: {
           country: 'Russia',
@@ -159,7 +164,8 @@ const countries = [
     },
     {
       src: sweden,
-      url: '/',
+      url: '/sweden',
+      gallery: englandGallery,
       translations: {
         en: {
           country: 'Sweden',
@@ -177,7 +183,8 @@ const countries = [
     },
     {
       src: uae,
-      url: '/',
+      url: '/uae',
+      gallery: englandGallery,
       translations: {
         en: {
           country: 'UAE',

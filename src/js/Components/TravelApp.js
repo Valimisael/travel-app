@@ -3,6 +3,8 @@ import Header from './Header';
 import Main from './Main';
 import Footer from './Footer';
 import Country from './Country';
+import {BrowserRouter, Route} from 'react-router-dom';
+import {countries} from '../Data/data';
 
 export default class TravelApp extends React.Component {
   constructor(props) {
@@ -13,12 +15,22 @@ export default class TravelApp extends React.Component {
   
   render () {
     return (
-      <div className="wrapper">
-        <Header settings={this.settings} updateState={this.updateState}/>
-        {/* <Main settings={this.settings}/> */}      
-        <Country settings={this.settings}/>
-        <Footer />
-      </div>
+      <BrowserRouter>
+        <div className="wrapper">
+          <Header settings={this.settings} updateState={this.updateState}/>
+          <Route exact path="/" render={(props) => <Main {...props} settings={this.settings} />} />
+          {
+            countries.map((country, index) => {
+              return (
+                <div key={index}>
+                  <Route path={country.url} render={(props) => <Country {...props} settings={this.settings} country={country}  />} />
+                </div>
+              ) 
+            })
+          }
+          <Footer />
+        </div>
+      </BrowserRouter>
     )
   }
 }
