@@ -23,7 +23,7 @@ export default class TravelApp extends React.Component {
             countries.map((country, index) => {
               return (
                 <div key={index}>
-                  <Route path={country.url} render={(props) => <Country {...props} settings={this.settings} country={country}  />} />
+                  <Route path={country.url} render={(props) => <Country {...props} settings={this.settings} country={country} updateState = {this.updateState}/>} />
                 </div>
               ) 
             })
