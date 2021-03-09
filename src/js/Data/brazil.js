@@ -1,119 +1,119 @@
-import bigBen from '../../img/sight-seeings/england/big-ben.jpg';
-import buckinghamPalace from '../../img/sight-seeings/england/buckingham-palace.jpg';
-import londonEye from '../../img/sight-seeings/england/london-eye.jpg';
-import tower from '../../img/sight-seeings/england/tower.jpg';
-import towerBridge from '../../img/sight-seeings/england/tower-bridge.jpg';
-import westminsterAbbey from '../../img/sight-seeings/england/westminster-abbey.jpg';
+import cathedral from '../../img/sight-seeings/brazil/cathedral.jpg';
+import christ from '../../img/sight-seeings/brazil/christ.jpg';
+import fernandoDeNaronha from '../../img/sight-seeings/brazil/fernando-de-noronha.jpg';
+import iguazu from '../../img/sight-seeings/brazil/iguazu.jpg';
+import maracana from '../../img/sight-seeings/brazil/maracana.jpg';
+import roraima from '../../img/sight-seeings/brazil/roraima.jpg';
 
-const englandGallery = [
+const brazilGallery = [
   {
-    original: londonEye,
-    thumbnail: londonEye,
+    original: roraima,
+    thumbnail: roraima,
     translations: {
       en: {
-        thumbnailLabel: 'London Eye',
+        thumbnailLabel: 'Mount Roraima',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       ru: {
-        thumbnailLabel: 'Лондонский глаз',
+        thumbnailLabel: 'Рорайма',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       se: {
-        thumbnailLabel: 'London Eye',
+        thumbnailLabel: 'Roraima',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
     }
   },
   {
-    original: bigBen,
-    thumbnail: bigBen,
+    original: christ,
+    thumbnail: christ,
     translations: {
       en: {
-        thumbnailLabel: 'Big Ben',
+        thumbnailLabel: 'Christ the Redeemer',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       ru: {
-        thumbnailLabel: 'Биг-Бен',
+        thumbnailLabel: 'Статуя Христа-Искупителя',
         description: 'Лорем ипсум).'
       },
       se: {
-        thumbnailLabel: 'Big Ben',
+        thumbnailLabel: 'Staty av Kristus Frälsaren',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
     }
   },
   {
-    original: buckinghamPalace,
-    thumbnail: buckinghamPalace,
+    original: cathedral,
+    thumbnail: cathedral,
     translations: {
       en: {
-        thumbnailLabel: 'Buckingham Palace',
+        thumbnailLabel: 'Cathedral of Brasilia',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       ru: {
-        thumbnailLabel: 'Букингемский дворец',
+        thumbnailLabel: 'Кафедральный собор',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       se: {
-        thumbnailLabel: 'Buckingham Palace',
+        thumbnailLabel: 'Katedral',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
     }
   },
   {
-    original: tower,
-    thumbnail: tower,
+    original: fernandoDeNaronha,
+    thumbnail: fernandoDeNaronha,
     translations: {
       en: {
-        thumbnailLabel: 'Tower of London',
+        thumbnailLabel: 'Fernando de Noronha',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       ru: {
-        thumbnailLabel: 'Лондонский Тауэр',
+        thumbnailLabel: 'Фернанду-ди-Норонья',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       se: {
-        thumbnailLabel: 'Tower',
+        thumbnailLabel: 'Fernando de Noronha',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
     }
   },
   {
-    original: towerBridge,
-    thumbnail: towerBridge,
+    original: iguazu,
+    thumbnail: iguazu,
     translations: {
       en: {
-        thumbnailLabel: 'Bridge of Tower',
+        thumbnailLabel: 'Iguazu Falls',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       ru: {
-        thumbnailLabel: 'Тауэрский мост',
+        thumbnailLabel: 'Игуасу',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       se: {
-        thumbnailLabel: 'Bro av Tornet',
+        thumbnailLabel: 'Iguazu',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
     }
   },
   {
-    original: westminsterAbbey,
-    thumbnail: westminsterAbbey,
+    original: maracana,
+    thumbnail: maracana,
     translations: {
       en: {
-        thumbnailLabel: 'Westminster Abbey',
+        thumbnailLabel: 'Maracana Stadium',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       ru: {
-        thumbnailLabel: 'Вестминстерское аббатство',
+        thumbnailLabel: 'Маракана',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       se: {
-        thumbnailLabel: 'Westminster Abbey',
+        thumbnailLabel: 'Maracana',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
     }
   }
 ];
 
-export {englandGallery};
+export {brazilGallery};

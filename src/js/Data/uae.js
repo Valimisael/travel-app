@@ -1,119 +1,119 @@
-import bigBen from '../../img/sight-seeings/england/big-ben.jpg';
-import buckinghamPalace from '../../img/sight-seeings/england/buckingham-palace.jpg';
-import londonEye from '../../img/sight-seeings/england/london-eye.jpg';
-import tower from '../../img/sight-seeings/england/tower.jpg';
-import towerBridge from '../../img/sight-seeings/england/tower-bridge.jpg';
-import westminsterAbbey from '../../img/sight-seeings/england/westminster-abbey.jpg';
+import burjAlArab from '../../img/sight-seeings/uae/burj-al-arab.jpg';
+import burjKhalifa from '../../img/sight-seeings/uae/burj-khalifa.jpg';
+import fountain from '../../img/sight-seeings/uae/fountain.jpg';
+import mosque from '../../img/sight-seeings/uae/mosque.jpg';
+import palmJumeirah from '../../img/sight-seeings/uae/palm-jumeirah.jpg';
+import ski from '../../img/sight-seeings/uae/ski.jpg';
 
-const englandGallery = [
+const uaeGallery = [
   {
-    original: londonEye,
-    thumbnail: londonEye,
+    original: burjAlArab,
+    thumbnail: burjAlArab,
     translations: {
       en: {
-        thumbnailLabel: 'London Eye',
+        thumbnailLabel: 'Burj Al Arab',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       ru: {
-        thumbnailLabel: 'Лондонский глаз',
+        thumbnailLabel: 'Бурдж аль-Араб',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       se: {
-        thumbnailLabel: 'London Eye',
+        thumbnailLabel: 'Burj Al Arab',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
     }
   },
   {
-    original: bigBen,
-    thumbnail: bigBen,
+    original: burjKhalifa,
+    thumbnail: burjKhalifa,
     translations: {
       en: {
-        thumbnailLabel: 'Big Ben',
+        thumbnailLabel: 'Burj Khalifa',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       ru: {
-        thumbnailLabel: 'Биг-Бен',
+        thumbnailLabel: 'Бурдж-Халифа',
         description: 'Лорем ипсум).'
       },
       se: {
-        thumbnailLabel: 'Big Ben',
+        thumbnailLabel: 'Burj Khalifa',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
     }
   },
   {
-    original: buckinghamPalace,
-    thumbnail: buckinghamPalace,
+    original: fountain,
+    thumbnail: fountain,
     translations: {
       en: {
-        thumbnailLabel: 'Buckingham Palace',
+        thumbnailLabel: 'Fountain Dubai',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       ru: {
-        thumbnailLabel: 'Букингемский дворец',
+        thumbnailLabel: 'Фонтан Дубай',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       se: {
-        thumbnailLabel: 'Buckingham Palace',
+        thumbnailLabel: 'Fontän Dubai',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
     }
   },
   {
-    original: tower,
-    thumbnail: tower,
+    original: mosque,
+    thumbnail: mosque,
     translations: {
       en: {
-        thumbnailLabel: 'Tower of London',
+        thumbnailLabel: 'Sheikh Zayed Mosque',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       ru: {
-        thumbnailLabel: 'Лондонский Тауэр',
+        thumbnailLabel: 'Мечеть шейха Зайда',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       se: {
-        thumbnailLabel: 'Tower',
+        thumbnailLabel: 'Sheikh Zayed-moskén',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
     }
   },
   {
-    original: towerBridge,
-    thumbnail: towerBridge,
+    original: palmJumeirah,
+    thumbnail: palmJumeirah,
     translations: {
       en: {
-        thumbnailLabel: 'Bridge of Tower',
+        thumbnailLabel: 'Palm Jumeirah',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       ru: {
-        thumbnailLabel: 'Тауэрский мост',
+        thumbnailLabel: 'Пальма Джумейра',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       se: {
-        thumbnailLabel: 'Bro av Tornet',
+        thumbnailLabel: 'Palm Jumeirah',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
     }
   },
   {
-    original: westminsterAbbey,
-    thumbnail: westminsterAbbey,
+    original: ski,
+    thumbnail: ski,
     translations: {
       en: {
-        thumbnailLabel: 'Westminster Abbey',
+        thumbnailLabel: 'Ski Dubai',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       ru: {
-        thumbnailLabel: 'Вестминстерское аббатство',
+        thumbnailLabel: 'Ski Dubai',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       se: {
-        thumbnailLabel: 'Westminster Abbey',
+        thumbnailLabel: 'Ski Dubai',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
     }
   }
 ];
 
-export {englandGallery};
+export {uaeGallery};
