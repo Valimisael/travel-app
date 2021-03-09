@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from '../../img/logo.png';
-import { header} from '../Data/data';
-import {NavLink} from 'react-router-dom';
+import { common } from '../Data/data';
+import { NavLink } from 'react-router-dom';
 
 export default class Header extends React.Component {
   constructor(props) {
@@ -17,15 +17,15 @@ export default class Header extends React.Component {
   }
   
   render () {
-    const indexLanguage = Object.keys(header).indexOf(this.settings.lang);
-    const activeValue = header[this.settings.lang].languages[indexLanguage];
-    const options = header[this.settings.lang].languages.map((el, index) => {
+    const indexLanguage = Object.keys(common).indexOf(this.settings.lang);
+    const activeValue = common[this.settings.lang].languages[indexLanguage];
+    const options = common[this.settings.lang].languages.map((el, index) => {
       return (
-        <option key = {index} value = {header[this.settings.lang][index]}>{el}</option>
+        <option key = {index} value = {common[this.settings.lang][index]}>{el}</option>
       )
     })
 
-    const placeHolder = header[this.settings.lang].placeHolder;
+    const placeHolder = common[this.settings.lang].placeHolder;
     
     return (
       <header className="header">

@@ -11,7 +11,7 @@ import {englandGallery} from '../Data/england';
 
 const defaultLanguage = 'en';
 
-const header = {
+const common = {
   en: {
     placeHolder: 'Search',
     languages: [
@@ -202,4 +202,4 @@ const countries = [
     },
   ]
 
-  export { header, countries, defaultLanguage }
+  export { common, countries, defaultLanguage }

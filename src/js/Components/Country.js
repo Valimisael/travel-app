@@ -1,5 +1,5 @@
 import React from 'react';
-import { header } from '../Data/data';
+import { common } from '../Data/data';
 import Gallery from './Gallery';
 
 export default class Country extends React.Component {
@@ -11,7 +11,7 @@ export default class Country extends React.Component {
   render () {
     const country = this.country;
     const lang = this.settings.lang;
-    const data = header[lang];
+    const data = common[lang];
 
     return (
       <main>
