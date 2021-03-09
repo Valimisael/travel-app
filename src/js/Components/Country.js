@@ -1,16 +1,18 @@
 import React from 'react';
-import { countries, header } from '../Data/data';
+import { header } from '../Data/data';
 import Gallery from './Gallery';
 
 export default class Country extends React.Component {
   constructor(props) {
     super(props);
     this.settings = this.props.settings;
+    this.country = this.props.country;
   }
   render () {
-    const country = countries[2];
+    const country = this.country;
     const lang = this.settings.lang;
     const data = header[lang];
+
     return (
       <main>
         <div className="hero">
