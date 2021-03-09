@@ -7,6 +7,7 @@ import russia from '../../img/countries-cards/russia.jpg';
 import sweden from '../../img/countries-cards/sweden.jpg';
 import uae from '../../img/countries-cards/uae.jpg';
 
+import greatBritainVideo from '../../video/Great Britain.mp4';
 import {englandGallery} from '../Data/england';
 
 const defaultLanguage = 'en';
@@ -20,7 +21,8 @@ const common = {
       "Swedish"
     ],
     about: 'About country',
-    inPhotos: 'in photos'
+    inPhotos: 'in photos',
+    video: 'Video tour'
   },
   ru: {
     placeHolder: 'Поиск',
@@ -30,7 +32,8 @@ const common = {
       "Шведский"
     ],
     about: 'О стране',
-    inPhotos: 'в фотографиях'
+    inPhotos: 'в фотографиях',
+    video: 'Видео-тур'
   },
   se: {
     placeHolder: 'Sök',
@@ -40,7 +43,8 @@ const common = {
       "Svenska"
     ],
     about: 'Om landet',
-    inPhotos: 'på fotografier'
+    inPhotos: 'på fotografier',
+    video: 'Videoturnér'
   }
 }
 
@@ -87,6 +91,8 @@ const countries = [
       src: england,
       url: '/great-britain',
       gallery: englandGallery,
+      video: greatBritainVideo,
+      poster: england,
       translations: {
         en: {
           country: 'Great Britain',

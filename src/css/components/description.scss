@@ -1,10 +1,4 @@
 .country__description {
-  padding: 20px;
-  
-  @media (min-width: 768px) {
-    padding: 50px;
-  }
-
   &-text {
     color: $color-blue;
     font-size: $font-size-18;
