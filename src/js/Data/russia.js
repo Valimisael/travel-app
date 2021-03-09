@@ -1,119 +1,119 @@
-import bigBen from '../../img/sight-seeings/england/big-ben.jpg';
-import buckinghamPalace from '../../img/sight-seeings/england/buckingham-palace.jpg';
-import londonEye from '../../img/sight-seeings/england/london-eye.jpg';
-import tower from '../../img/sight-seeings/england/tower.jpg';
-import towerBridge from '../../img/sight-seeings/england/tower-bridge.jpg';
-import westminsterAbbey from '../../img/sight-seeings/england/westminster-abbey.jpg';
+import baikal from '../../img/sight-seeings/russia/baikal.jpeg';
+import cathedral from '../../img/sight-seeings/russia/cathedral.jpg';
+import church from '../../img/sight-seeings/russia/church.jpg';
+import hermitage from '../../img/sight-seeings/russia/hermitage.jpg';
+import moscow from '../../img/sight-seeings/russia/moscow.jpg';
+import theatre from '../../img/sight-seeings/russia/theatre.jpg';
 
-const englandGallery = [
+const russiaGallery = [
   {
-    original: londonEye,
-    thumbnail: londonEye,
+    original: baikal,
+    thumbnail: baikal,
     translations: {
       en: {
-        thumbnailLabel: 'London Eye',
+        thumbnailLabel: 'Baikal',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       ru: {
-        thumbnailLabel: 'London Eye',
+        thumbnailLabel: 'Байкал',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       se: {
-        thumbnailLabel: 'London Eye',
+        thumbnailLabel: 'Baikal',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
     }
   },
   {
-    original: bigBen,
-    thumbnail: bigBen,
+    original: cathedral,
+    thumbnail: cathedral,
     translations: {
       en: {
-        thumbnailLabel: 'Big Ben',
+        thumbnailLabel: 'Saint Isaac\'s Cathedral',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       ru: {
-        thumbnailLabel: 'Биг Бен',
+        thumbnailLabel: 'Исаакиевский собор',
         description: 'Лорем ипсум).'
       },
       se: {
-        thumbnailLabel: 'Big Ben',
+        thumbnailLabel: 'Saint Isaac\'s Cathedral',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
     }
   },
   {
-    original: buckinghamPalace,
-    thumbnail: buckinghamPalace,
+    original: church,
+    thumbnail: church,
     translations: {
       en: {
-        thumbnailLabel: 'Buckingham Palace',
+        thumbnailLabel: 'St Basil\'s Church',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       ru: {
-        thumbnailLabel: 'Букингемский дворец',
+        thumbnailLabel: 'Храм Василия Блаженного',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       se: {
-        thumbnailLabel: 'Buckingham Palace',
+        thumbnailLabel: 'St Basil\'s Church',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
     }
   },
   {
-    original: tower,
-    thumbnail: tower,
+    original: hermitage,
+    thumbnail: hermitage,
     translations: {
       en: {
-        thumbnailLabel: 'Tower',
+        thumbnailLabel: 'Hermitage Museum',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       ru: {
-        thumbnailLabel: 'Tower',
+        thumbnailLabel: 'Эрмитаж',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       se: {
-        thumbnailLabel: 'Tower',
+        thumbnailLabel: 'Hermitage Museum',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
     }
   },
   {
-    original: towerBridge,
-    thumbnail: towerBridge,
+    original: moscow,
+    thumbnail: moscow,
     translations: {
       en: {
-        thumbnailLabel: 'Bridge of Tower',
+        thumbnailLabel: 'Moscow City',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       ru: {
-        thumbnailLabel: 'Bridge of Tower',
+        thumbnailLabel: 'Москва-Сити',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       se: {
-        thumbnailLabel: 'Bridge of Tower',
+        thumbnailLabel: 'Moskva stad',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
     }
   },
   {
-    original: westminsterAbbey,
-    thumbnail: westminsterAbbey,
+    original: theatre,
+    thumbnail: theatre,
     translations: {
       en: {
-        thumbnailLabel: 'Westminster Abbey',
+        thumbnailLabel: 'Big Theater',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       ru: {
-        thumbnailLabel: 'Westminster Abbey',
+        thumbnailLabel: 'Большой театр',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       se: {
-        thumbnailLabel: 'Westminster Abbey',
+        thumbnailLabel: 'Stor Teater',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
     }
   }
 ];
 
-export {englandGallery};
+export {russiaGallery};

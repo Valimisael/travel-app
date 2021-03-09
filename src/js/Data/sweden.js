@@ -1,119 +1,119 @@
-import bigBen from '../../img/sight-seeings/england/big-ben.jpg';
-import buckinghamPalace from '../../img/sight-seeings/england/buckingham-palace.jpg';
-import londonEye from '../../img/sight-seeings/england/london-eye.jpg';
-import tower from '../../img/sight-seeings/england/tower.jpg';
-import towerBridge from '../../img/sight-seeings/england/tower-bridge.jpg';
-import westminsterAbbey from '../../img/sight-seeings/england/westminster-abbey.jpg';
+import arena from '../../img/sight-seeings/sweden/arena.jpg';
+import bridge from '../../img/sight-seeings/sweden/bridge.jpg';
+import castle from '../../img/sight-seeings/sweden/castle.jpg';
+import hall from '../../img/sight-seeings/sweden/hall.jpg';
+import palace from '../../img/sight-seeings/sweden/palace.jpg';
+import torso from '../../img/sight-seeings/sweden/torso.jpg';
 
-const englandGallery = [
+const swedenGallery = [
   {
-    original: londonEye,
-    thumbnail: londonEye,
+    original: arena,
+    thumbnail: arena,
     translations: {
       en: {
-        thumbnailLabel: 'London Eye',
+        thumbnailLabel: 'Globe Arena',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       ru: {
-        thumbnailLabel: 'London Eye',
+        thumbnailLabel: 'Глобен-Арена',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       se: {
-        thumbnailLabel: 'London Eye',
+        thumbnailLabel: 'Globen Arena',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
     }
   },
   {
-    original: bigBen,
-    thumbnail: bigBen,
+    original: bridge,
+    thumbnail: bridge,
     translations: {
       en: {
-        thumbnailLabel: 'Big Ben',
+        thumbnailLabel: 'Øresund Bridge',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       ru: {
-        thumbnailLabel: 'Биг Бен',
+        thumbnailLabel: 'Эресуннский мост',
         description: 'Лорем ипсум).'
       },
       se: {
-        thumbnailLabel: 'Big Ben',
+        thumbnailLabel: 'Øresundsbron',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
     }
   },
   {
-    original: buckinghamPalace,
-    thumbnail: buckinghamPalace,
+    original: castle,
+    thumbnail: castle,
     translations: {
       en: {
-        thumbnailLabel: 'Buckingham Palace',
+        thumbnailLabel: 'Kalmar Castle',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       ru: {
-        thumbnailLabel: 'Букингемский дворец',
+        thumbnailLabel: 'Кальмарский замок',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       se: {
-        thumbnailLabel: 'Buckingham Palace',
+        thumbnailLabel: 'Kalmar slott',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
     }
   },
   {
-    original: tower,
-    thumbnail: tower,
+    original: hall,
+    thumbnail: hall,
     translations: {
       en: {
-        thumbnailLabel: 'Tower',
+        thumbnailLabel: 'Stockholm City Hall',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       ru: {
-        thumbnailLabel: 'Tower',
+        thumbnailLabel: 'Стокгольмская ратуша',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       se: {
-        thumbnailLabel: 'Tower',
+        thumbnailLabel: 'Stockholms stadshus',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
     }
   },
   {
-    original: towerBridge,
-    thumbnail: towerBridge,
+    original: palace,
+    thumbnail: palace,
     translations: {
       en: {
-        thumbnailLabel: 'Bridge of Tower',
+        thumbnailLabel: 'Royal Palace in Stockholm',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       ru: {
-        thumbnailLabel: 'Bridge of Tower',
+        thumbnailLabel: 'Королевский дворец в Стокгольме',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       se: {
-        thumbnailLabel: 'Bridge of Tower',
+        thumbnailLabel: 'Kungliga slottet i Stockholm',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
     }
   },
   {
-    original: westminsterAbbey,
-    thumbnail: westminsterAbbey,
+    original: torso,
+    thumbnail: torso,
     translations: {
       en: {
-        thumbnailLabel: 'Westminster Abbey',
+        thumbnailLabel: 'Turning Torso',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       ru: {
-        thumbnailLabel: 'Westminster Abbey',
+        thumbnailLabel: 'Turning Torso',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       se: {
-        thumbnailLabel: 'Westminster Abbey',
+        thumbnailLabel: 'Vrid torso',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
     }
   }
 ];
 
-export {englandGallery};
+export {swedenGallery};

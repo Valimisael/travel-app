@@ -8,7 +8,15 @@ import sweden from '../../img/countries-cards/sweden.jpg';
 import uae from '../../img/countries-cards/uae.jpg';
 
 import greatBritainVideo from '../../video/Great Britain.mp4';
+
+import {australiaGallery} from '../Data/australia';
+import {brazilGallery} from '../Data/brazil';
 import {englandGallery} from '../Data/england';
+import {greeceGallery} from '../Data/greece';
+import {japanGallery} from '../Data/japan';
+import {russiaGallery} from '../Data/russia';
+import {swedenGallery} from '../Data/sweden';
+import {uaeGallery} from '../Data/uae';
 
 const defaultLanguage = 'en';
 
@@ -52,7 +60,7 @@ const countries = [
     {
       src: australia,
       url: '/australia',
-      gallery: englandGallery,
+      gallery: australiaGallery,
       translations: {
         en: {
           country: 'Australia',
@@ -71,7 +79,7 @@ const countries = [
     {
       src: brazil,
       url: '/brazil',
-      gallery: englandGallery,
+      gallery: brazilGallery,
       translations: {
         en: {
           country: 'Brazil',
@@ -114,7 +122,7 @@ const countries = [
     {
       src: greece,
       url: '/greece',
-      gallery: englandGallery,
+      gallery: greeceGallery,
       translations: {
         en: {
           country: 'Greece',
@@ -133,7 +141,7 @@ const countries = [
     {
       src: japan,
       url: '/japan',
-      gallery: englandGallery,
+      gallery: japanGallery,
       translations: {
         en: {
           country: 'Japan',
@@ -152,7 +160,7 @@ const countries = [
     {
       src: russia,
       url: '/russia',
-      gallery: englandGallery,
+      gallery: russiaGallery,
       translations: {
         en: {
           country: 'Russia',
@@ -171,7 +179,7 @@ const countries = [
     {
       src: sweden,
       url: '/sweden',
-      gallery: englandGallery,
+      gallery: swedenGallery,
       translations: {
         en: {
           country: 'Sweden',
@@ -190,7 +198,7 @@ const countries = [
     {
       src: uae,
       url: '/uae',
-      gallery: englandGallery,
+      gallery: uaeGallery,
       translations: {
         en: {
           country: 'UAE',
