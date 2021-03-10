@@ -49,13 +49,14 @@
 }
 
 .image-gallery-thumbnails {
-  padding-bottom: 50px;
+  padding-bottom: 70px;
 }
 
 .image-gallery-thumbnail-label {
   font-family: $font-family;
   color: $color-blue;
   font-size: $font-size;
+  line-height: 1.2;
   top: unset;
   transform: translateX(0);
   margin-top: 10px;
