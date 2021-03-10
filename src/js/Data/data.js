@@ -1,33 +1,15 @@
-import australia from '../../img/countries-cards/australia.jpg';
-import brazil from '../../img/countries-cards/brazil.jpg';
-import england from '../../img/countries-cards/england.jpg';
-import greece from '../../img/countries-cards/greece.jpg';
-import japan from '../../img/countries-cards/japan.jpg';
-import russia from '../../img/countries-cards/russia.jpg';
-import sweden from '../../img/countries-cards/sweden.jpg';
-import uae from '../../img/countries-cards/uae.jpg';
+import { IMAGES, GALLERY, VIDEO, LOGOS} from './media';
 
-import greatBritainVideo from '../../video/Great Britain.mp4';
+const CURRENCIESAPIURL = currencyCode => `https://www.nbrb.by/api/exrates/rates/${currencyCode}?parammode=1`;
 
-import {australiaGallery} from '../Data/australia';
-import {brazilGallery} from '../Data/brazil';
-import {englandGallery} from '../Data/england';
-import {greeceGallery} from '../Data/greece';
-import {japanGallery} from '../Data/japan';
-import {russiaGallery} from '../Data/russia';
-import {swedenGallery} from '../Data/sweden';
-import {uaeGallery} from '../Data/uae';
-
-const currenciesApiURL = currencyCode => `https://www.nbrb.by/api/exrates/rates/${currencyCode}?parammode=1`;
-
-const defaultLanguage = 'en';
-const defaultCurrenciesCodes = {
+const DEFAULTLANGUAGE = 'en';
+const DEFAULTCURRENCIESCODES = {
   euro: '978',
   dollar: '840',
 }
-const decimalPlacesForCurrencies = 2;
+const DECIMALPLACESFORCURRENCIES = 2;
 
-const common = {
+const COMMON = {
   en: {
     placeHolder: 'Search',
     languages: [
@@ -78,11 +60,12 @@ const common = {
   },
 };
 
-const countries = [
+const COUNTRIES = [
     {
-      src: australia,
+      name: 'australia',
+      src: IMAGES.australia,
       url: '/australia',
-      gallery: australiaGallery,
+      gallery: GALLERY.australiaGallery,
       translations: {
         en: {
           country: 'Australia',
@@ -103,9 +86,10 @@ const countries = [
       currencyCode: '036'
     },
     {
-      src: brazil,
+      name: 'brazil',
+      src: IMAGES.brazil,
       url: '/brazil',
-      gallery: brazilGallery,
+      gallery: GALLERY.brazilGallery,
       translations: {
         en: {
           country: 'Brazil',
@@ -126,11 +110,12 @@ const countries = [
       currencyCode: '986'
     },
     {
-      src: england,
+      name: 'great-britain',
+      src: IMAGES.england,
       url: '/great-britain',
-      gallery: englandGallery,
-      video: greatBritainVideo,
-      poster: england,
+      gallery: GALLERY.englandGallery,
+      video: VIDEO.greatBritainVideo,
+      poster: IMAGES.england,
       translations: {
         en: {
           country: 'Great Britain',
@@ -154,9 +139,10 @@ const countries = [
       currencyCode: '826'
     },
     {
-      src: greece,
+      name: 'greece',
+      src: IMAGES.greece,
       url: '/greece',
-      gallery: greeceGallery,
+      gallery: GALLERY.greeceGallery,
       translations: {
         en: {
           country: 'Greece',
@@ -177,9 +163,10 @@ const countries = [
       currencyCode: '978'
     },
     {
-      src: japan,
+      name: 'japan',
+      src: IMAGES.japan,
       url: '/japan',
-      gallery: japanGallery,
+      gallery: GALLERY.japanGallery,
       translations: {
         en: {
           country: 'Japan',
@@ -200,9 +187,10 @@ const countries = [
       currencyCode: '392'
     },
     {
-      src: russia,
+      name: 'russia',
+      src: IMAGES.russia,
       url: '/russia',
-      gallery: russiaGallery,
+      gallery: GALLERY.russiaGallery,
       translations: {
         en: {
           country: 'Russia',
@@ -223,9 +211,10 @@ const countries = [
       currencyCode: '643'
     },
     {
-      src: sweden,
+      name: 'sweden',
+      src: IMAGES.sweden,
       url: '/sweden',
-      gallery: swedenGallery,
+      gallery: GALLERY.swedenGallery,
       translations: {
         en: {
           country: 'Sweden',
@@ -246,9 +235,10 @@ const countries = [
       currencyCode: '752'
     },
     {
-      src: uae,
+      name: 'uae',
+      src: IMAGES.uae,
       url: '/uae',
-      gallery: uaeGallery,
+      gallery: GALLERY.uaeGallery,
       translations: {
         en: {
           country: 'UAE',
@@ -270,4 +260,23 @@ const countries = [
     },
   ]
 
-  export { common, countries, defaultLanguage, currenciesApiURL, defaultCurrenciesCodes, decimalPlacesForCurrencies }
+  const FOOTER = {
+    author: [
+      {
+        name: 'Valimisael',
+        link: 'https://github.com/Valimisael',
+      },
+      {
+        name: 'Jimmba',
+        link: 'https://github.com/Jimmba',
+      },
+    ],
+    logo: {
+      img: LOGOS.footerLogo,
+      alt: 'RSSchool JS',
+      link: 'https://rs.school/js/',
+    },
+    year: '2021',
+  }
+
+  export { COMMON, COUNTRIES, DEFAULTLANGUAGE, CURRENCIESAPIURL, DEFAULTCURRENCIESCODES, DECIMALPLACESFORCURRENCIES, FOOTER }
