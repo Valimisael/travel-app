@@ -26,13 +26,14 @@
 
   &__title {
     color: $color-blue;
-    font-size: $font-size-68;
+    font-size: $font-size-40;
     margin-bottom: 20px;
   }
 
   &__description,
   &__gallery,
-  &__video {
+  &__video,
+  &__currency {
     padding: 20px;
     
     @media (min-width: 768px) {

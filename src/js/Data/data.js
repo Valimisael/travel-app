@@ -161,12 +161,12 @@ const countries = [
         en: {
           country: 'Greece',
           capital: 'Athens',
-          currencyName: 'Евро'
+          currencyName: 'Euro'
         },
         ru: {
           country: 'Греция',
           capital: 'Афины',
-          currencyName: 'Euro'
+          currencyName: 'Евро'
         },
         se: {
           country: 'Grekland',
