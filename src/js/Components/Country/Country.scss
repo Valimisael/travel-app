@@ -1,0 +1,192 @@
+@import '../../../css/base/variables.scss';
+
+.hero {
+  height: 100vw;
+  position: relative;
+
+  @media (min-width: 768px) {
+    height: calc(100vh - 90px);
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+  }
+
+  &::before {
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to left,rgba(0,0,0,0),rgba(0,0,0,0.7) 100%);
+  }
+
+  &::after {
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(to bottom,rgba(0,0,0,0),rgba(0,0,0,0.7) 100%);
+  }
+
+  &__details {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    top: 0;
+    left: 0;
+    color: $color-white;
+    z-index: 2;
+
+    @media (min-width: 768px) {
+      align-items: flex-start;
+      padding:  0 0 100px 50px;
+    }
+    
+    h1, h2 {
+      margin: 20px 0;
+    }
+
+    h1 {
+      font-size: $font-size-48;
+
+      @media (min-width: 768px) {
+        font-size: $font-size-72;
+      }
+    }
+
+    h2 {
+      font-size: $font-size-40;
+
+      @media (min-width: 768px) {
+        font-size: $font-size-68;
+      }
+    }
+  }
+}
+
+.countries {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+
+  @media (min-width: 768px) {
+    padding: 50px;
+  }
+}
+
+.country {
+  width: calc(100% - 40px);
+  margin: 20px;
+  position: relative;
+
+  @media (min-width: 768px) {
+    width: calc(50% - 40px);   
+  }
+
+  @media (min-width: 1024px) {
+    width: calc(25% - 40px);    
+  }
+
+  &:hover {
+    .country__details {
+      background: rgba($color: $color-black, $alpha: 0.2);
+    }
+  }
+
+  &__details {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba($color: $color-black, $alpha: 0.5);
+    transition: all 0.3s ease-in-out;
+
+    h2, h3 {
+      color: $color-white;
+      margin: 10px;
+    }
+
+    h2 {
+      font-size: $font-size-24;
+    }
+
+    h3 {
+      font-size: $font-size-20;
+    }
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+.country {
+  &__description {
+    &-text {
+      color: $color-blue;
+      font-size: $font-size-18;
+      line-height: 1.5;
+    }
+  }
+  &__wrapper {
+    display: flex;
+    flex-direction: column;  
+  
+    @media (min-width: 768px) {
+      flex-direction: row;
+    }
+  }
+
+  &__info {
+    width: 100%;
+  
+    @media (min-width: 768px) {
+      width: 70%;
+    }
+  }
+
+  &__widgets {
+    width: 100%;
+  
+    @media (min-width: 768px) {
+      width: 30%;
+    }
+  }
+
+  &__title {
+    color: $color-blue;
+    font-size: $font-size-40;
+    margin-bottom: 20px;
+  }
+
+  &__description,
+  &__gallery,
+  &__video,
+  &__currency {
+    padding: 20px;
+    
+    @media (min-width: 768px) {
+      padding: 50px;
+    }
+  }
+}

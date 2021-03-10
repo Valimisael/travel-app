@@ -1,0 +1,30 @@
+@import '../../../css/base/variables.scss';
+
+.video-react {
+  .video-react-poster {
+    background-size: cover;
+  }
+
+  .video-react-big-play-button {
+    width: 70px;
+    height: 70px;
+    background-color: $color-orange;
+    border-radius: 50%;
+    border-width: 0;
+    transition: all 0.3s ease-in-out;
+
+    &::before {
+      top: 70%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  &:hover,
+  &:focus {
+    .video-react-big-play-button {
+      background-color: $color-orange;
+      transform: scale(1.1);
+    }
+  }
+}
