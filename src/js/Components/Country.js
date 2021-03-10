@@ -1,5 +1,6 @@
 import React from 'react';
 import { common } from '../Data/data';
+import Currency from './Currency';
 import Gallery from './Gallery';
 import { Player, BigPlayButton } from 'video-react';
 
@@ -8,6 +9,7 @@ export default class Country extends React.Component {
     super(props);
     this.settings = this.props.settings;
     this.country = this.props.country;
+    this.updateState = this.props.updateState.bind(this);
   }
   render () {
     const country = this.country;
@@ -40,7 +42,9 @@ export default class Country extends React.Component {
               </Player>
             </div>
           </div>
-          <div className="country__widgets"></div>
+          <div className="country__widgets">
+            <Currency settings={this.settings} country={this.country} updateState = {this.updateState} />
+          </div>
         </div>
       </main>
     )
