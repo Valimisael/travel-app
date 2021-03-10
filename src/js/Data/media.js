@@ -10,6 +10,15 @@ import russia from '../../img/countries-cards/russia.jpg';
 import sweden from '../../img/countries-cards/sweden.jpg';
 import uae from '../../img/countries-cards/uae.jpg';
 
+import australiaThumb from '../../img/countries-cards/thumbs/australia.jpg';
+import brazilThumb from '../../img/countries-cards/thumbs/brazil.jpg';
+import englandThumb from '../../img/countries-cards/thumbs/england.jpg';
+import greeceThumb from '../../img/countries-cards/thumbs/greece.jpg';
+import japanThumb from '../../img/countries-cards/thumbs/japan.jpg';
+import russiaThumb from '../../img/countries-cards/thumbs/russia.jpg';
+import swedenThumb from '../../img/countries-cards/thumbs/sweden.jpg';
+import uaeThumb from '../../img/countries-cards/thumbs/uae.jpg';
+
 import { australiaGallery } from '../Data/countries/australia';
 import { brazilGallery } from '../Data/countries/brazil';
 import { englandGallery } from '../Data/countries/england';
@@ -30,6 +39,17 @@ export const IMAGES = {
   russia, 
   sweden, 
   uae
+};
+
+export const THUMBS = {
+  australiaThumb, 
+  brazilThumb, 
+  englandThumb, 
+  greeceThumb, 
+  japanThumb, 
+  russiaThumb, 
+  swedenThumb, 
+  uaeThumb
 };
 
 export const GALLERY = {

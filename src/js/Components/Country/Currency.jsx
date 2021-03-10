@@ -17,7 +17,6 @@ export default class Currency extends React.Component {
     this.updateState(this.settings);
   }
 
-
   render() {
     this.currency.updateLanguage(this.settings.lang);
     return (

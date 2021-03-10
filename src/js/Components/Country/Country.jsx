@@ -2,9 +2,11 @@ import React from 'react';
 import './Country.scss';
 
 import { COMMON } from '../../Data/data';
+import Hero from './Hero.jsx';
+import Description from './Description.jsx';
+import Gallery from './Gallery.jsx';
+import Video from './Video.jsx';
 import Currency from './Currency.jsx';
-import Gallery from './Gallery';
-import Video from './Video';
 
 export default class Country extends React.Component {
   constructor(props) {
@@ -21,19 +23,10 @@ export default class Country extends React.Component {
 
     return (
       <main>
-        <div className="hero">
-          <img src={country.src} alt={country.country} />
-          <div className="hero__details">
-            <h1>{country.translations[lang].country}</h1>
-            <h2>{country.translations[lang].capital}</h2>
-          </div>
-        </div>
+        <Hero image={country} content={country.translations[lang]} />
         <div className="country__wrapper">
           <div className="country__info">
-            <div className="country__description">
-              <h2 className="country__title">{`${data.about}`}</h2>
-              <div className="country__description-text">{country.translations[lang].description}</div>
-            </div>
+            <Description title={data.about} description={country.translations[lang].description} />
             <Gallery title={country.translations[lang].country} images={country.gallery} settings={this.settings}/>
             <Video video={data.video} country={country} />
           </div>

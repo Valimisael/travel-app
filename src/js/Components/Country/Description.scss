@@ -1,0 +1,9 @@
+@import '../../../css/base/variables.scss';
+
+.country__description {
+  &-text {
+    color: $color-blue;
+    font-size: $font-size-18;
+    line-height: 1.5;
+  }
+}
