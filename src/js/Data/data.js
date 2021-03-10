@@ -1,4 +1,4 @@
-import { IMAGES, GALLERY, VIDEO, LOGOS} from './media';
+import { IMAGES, THUMBS, GALLERY, VIDEO, LOGOS} from './media';
 
 const CURRENCIESAPIURL = currencyCode => `https://www.nbrb.by/api/exrates/rates/${currencyCode}?parammode=1`;
 
@@ -64,6 +64,7 @@ const COUNTRIES = [
     {
       name: 'australia',
       src: IMAGES.australia,
+      thumb: THUMBS.australiaThumb,
       url: '/australia',
       gallery: GALLERY.australiaGallery,
       translations: {
@@ -88,6 +89,7 @@ const COUNTRIES = [
     {
       name: 'brazil',
       src: IMAGES.brazil,
+      thumb: THUMBS.brazilThumb,
       url: '/brazil',
       gallery: GALLERY.brazilGallery,
       translations: {
@@ -112,6 +114,7 @@ const COUNTRIES = [
     {
       name: 'great-britain',
       src: IMAGES.england,
+      thumb: THUMBS.englandThumb,
       url: '/great-britain',
       gallery: GALLERY.englandGallery,
       video: VIDEO.greatBritainVideo,
@@ -141,6 +144,7 @@ const COUNTRIES = [
     {
       name: 'greece',
       src: IMAGES.greece,
+      thumb: THUMBS.greeceThumb,
       url: '/greece',
       gallery: GALLERY.greeceGallery,
       translations: {
@@ -165,6 +169,7 @@ const COUNTRIES = [
     {
       name: 'japan',
       src: IMAGES.japan,
+      thumb: THUMBS.japanThumb,
       url: '/japan',
       gallery: GALLERY.japanGallery,
       translations: {
@@ -189,6 +194,7 @@ const COUNTRIES = [
     {
       name: 'russia',
       src: IMAGES.russia,
+      thumb: THUMBS.russiaThumb,
       url: '/russia',
       gallery: GALLERY.russiaGallery,
       translations: {
@@ -213,6 +219,7 @@ const COUNTRIES = [
     {
       name: 'sweden',
       src: IMAGES.sweden,
+      thumb: THUMBS.swedenThumb,
       url: '/sweden',
       gallery: GALLERY.swedenGallery,
       translations: {
@@ -237,6 +244,7 @@ const COUNTRIES = [
     {
       name: 'uae',
       src: IMAGES.uae,
+      thumb: THUMBS.uaeThumb,
       url: '/uae',
       gallery: GALLERY.uaeGallery,
       translations: {
