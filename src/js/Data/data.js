@@ -24,7 +24,8 @@ const COMMON = {
       euro: "Euro",
       dollar: 'Dollar',
       ruble: 'Belorussian Ruble'
-    }
+    },
+    error: 'Ooops! Something went wrong!'
   },
   ru: {
     placeHolder: 'Поиск',
@@ -40,7 +41,8 @@ const COMMON = {
       euro: "Евро",
       dollar: 'Доллар',
       ruble: 'Белорусский рубль'
-    }
+    },
+    error: 'Ой-ой! Что-то пошло не так!'
   },
   se: {
     placeHolder: 'Sök',
@@ -57,6 +59,7 @@ const COMMON = {
       dollar: 'Dollar',
       ruble: 'Vitryska rubel'
     },
+    error: 'Oj! Något gick fel!'
   },
 };
 

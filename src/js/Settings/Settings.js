@@ -3,6 +3,7 @@ import { DEFAULTLANGUAGE, COMMON } from '../Data/data';
 export default class Settings {
 	constructor() {
 		this.lang = '';
+		this.search ='';
 		this.init();
 	}
 
@@ -20,5 +21,9 @@ export default class Settings {
 		const langList = Object.keys(COMMON);
 		this.lang = langList[indexLang];
 		localStorage.setItem('lang', this.lang);
+	}
+
+	updateSearch(value) {
+		this.search = value;
 	}
 }

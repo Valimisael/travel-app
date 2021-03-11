@@ -20,6 +20,11 @@
 }
 .settings {
   display: flex;
+  flex-direction: column; 
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
 }
 
 .logo {
@@ -34,39 +39,6 @@
   }
 }
 
-.search {
-  text-align: center;
-
-  &__field {
-    width: 80%;
-    max-width: 350px;
-    position: relative;
-  }
-
-  input {
-    border: 2px solid $color-blue;
-    border-radius: 35px;
-    height: 35px;
-    width: 100%;
-    color: $color-blue;
-    padding-left: 40px;
-    font-family: $font-family;
-  }
-
-  ::placeholder {
-    color: $color-blue;
-    font-family: $font-family;
-  }
-
-  .icon-search {
-    position: absolute;
-    top: 50%;
-    left: 10px;
-    transform: translateY(-50%);
-    color: $color-blue;
-  }
-}
-
 .localization {
   text-align: right;
 
@@ -77,6 +49,10 @@
     color: $color-blue;
     padding: 0 10px;
     font-family: $font-family;
-    width: 125px;
+    width: 100%;
+
+    @media (min-width: 768px) {
+      width: 125px;
+    }
   }
 }

@@ -1,9 +1,11 @@
 import React from 'react';
 import './Header.scss';
 
+import { Route } from 'react-router-dom';
 import { LOGOS} from '../../Data/media';
 import { COMMON } from '../../Data/data';
 import { NavLink } from 'react-router-dom';
+import Search from './Search/Search';
 
 export default class Header extends React.Component {
   constructor(props) {
@@ -35,12 +37,7 @@ export default class Header extends React.Component {
           <img className="logo__image" alt="Logo" src={LOGOS.headerLogo} />
         </NavLink>
         <div className="settings">
-          <div className="header__item search">
-            <div className="search__field">
-              <label className="icon icon-search" htmlFor="search"></label>
-              <input id="search" type="search" placeholder={placeHolder} />
-            </div>
-          </div>
+          <Route exact path="/" render={(props) => <Search {...props} placeHolder={placeHolder} settings={this.settings} updateState={this.updateState} />} />
           <div className="header__item localization">
             <select onChange = {this.changeLang} value={activeValue}>
               {options}
