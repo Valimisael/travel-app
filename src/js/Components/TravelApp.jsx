@@ -18,12 +18,12 @@ export default class TravelApp extends React.Component {
       <BrowserRouter>
         <div className="wrapper">
           <Header settings={this.settings} updateState={this.updateState}/>
-          <Route exact path="/" render={(props) => <Home {...props} settings={this.settings} />} />
+          <Route exact path="/" render={(props) => <Home {...props} settings={this.settings} updateState = {this.updateState} />} />
           {
             COUNTRIES.map((country) => {
               return (
                 <div key={country.name}>
-                  <Route path={country.url} render={(props) => <Country {...props} settings={this.settings} country={country} updateState = {this.updateState}/>} />
+                  <Route path={country.url} render={(props) => <Country {...props} settings={this.settings} country={country} updateState = {this.updateState} />} />
                 </div>
               ) 
             })

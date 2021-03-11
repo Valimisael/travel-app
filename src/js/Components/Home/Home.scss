@@ -8,6 +8,18 @@
   @media (min-width: 768px) {
     padding: 50px;
   }
+
+  &__error {
+    font-size: $font-size-40;
+    color: $color-blue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+  }
 }
 
 .country {
@@ -16,7 +28,7 @@
   position: relative;
 
   @media (min-width: 768px) {
-    width: calc(50% - 40px);   
+    width: calc(50% - 40px);
   }
 
   @media (min-width: 1024px) {
