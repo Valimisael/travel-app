@@ -1,4 +1,5 @@
 import React from 'react';
+import { COMMON } from '../../Data/data';
 import GetWeather from '../../Settings/GetWeather';
 import './Weather.scss';
 
@@ -10,7 +11,6 @@ export default class Weather extends React.Component {
     this.updateState = this.props.updateState.bind(this);
     this.stateCallback = this.stateCallback.bind(this);
     this.weather = new GetWeather(this.settings.lang, this.country, this.stateCallback);
-    
   }
 
   stateCallback() {
@@ -19,15 +19,14 @@ export default class Weather extends React.Component {
 
   render() {
     this.weather.checkIfLangIsChangedAndUpdateStage(this.settings.lang);
+    const weatherTranslations = COMMON[this.settings.lang].weather;
     return (
       <div className="country__weather">
-        <div>Город: {this.weather.capital} </div>
-        <div>Ощущается: {this.weather.feelsLike} °</div>
-        <div>Температура: {this.weather.temp} °</div>
-        <div>Влажность: {this.weather.humidity} %</div>
-        <div>Ветер: {this.weather.windSpeed} м/с</div>
-        <div>Направление: {this.weather.windDirection} °</div>
-        <div>Облачность: {this.weather.description}</div>
+        <div>{this.weather.description}</div>
+        <div>{weatherTranslations.temp}: {this.weather.temp} °</div>
+        <div>{weatherTranslations.feelsLike}: {this.weather.feelsLike} °</div>
+        <div>{weatherTranslations.humidity}: {this.weather.humidity} %</div>
+        <div>{weatherTranslations.windSpeed}: {this.weather.windSpeed} м/с</div>
         <img src = {this.weather.iconURL} alt = 'current weather'/>
       </div>
     )

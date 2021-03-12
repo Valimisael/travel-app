@@ -14,15 +14,13 @@ export default class GetWeather {
     fetch(WEATHERAPIURL(this.capitalOnDefaultLanguage, this.lang))
       .then(res => res.json())
       .then(data => {
-        this.capital = data.name;
+        this.description = data.weather[CURRENTWEATHERINDEX].description;
+        this.temp = this.toCelsium(data.main.temp);
         this.feelsLike = this.toCelsium(data.main.feels_like);
         this.humidity = data.main.humidity;
-        this.temp = this.toCelsium(data.main.temp);
-        this.description = data.weather[CURRENTWEATHERINDEX].description;
+        this.windSpeed = Math.round(data.wind.speed);
         const icon = data.weather[CURRENTWEATHERINDEX].icon;
         this.iconURL = WEATHERICONURL(icon);
-        this.windSpeed = data.wind.speed;
-        this.windDirection = data.wind.deg;
         this.updateState();
       })
   }

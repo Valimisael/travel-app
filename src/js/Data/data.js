@@ -30,7 +30,13 @@ const COMMON = {
       dollar: 'Dollar',
       ruble: 'Belorussian Ruble'
     },
-    error: 'Ooops! Something went wrong!'
+    error: 'Ooops! Something went wrong!',
+    weather : {
+      temp: 'temp',
+      feelsLike: 'feels like',
+      humidity: 'humidity',
+      windSpeed: 'wind' 
+    }
   },
   ru: {
     placeHolder: 'Поиск',
@@ -47,7 +53,13 @@ const COMMON = {
       dollar: 'Доллар',
       ruble: 'Белорусский рубль'
     },
-    error: 'Ой-ой! Что-то пошло не так!'
+    error: 'Ой-ой! Что-то пошло не так!',
+    weather: {
+      temp: "температура",
+      feelsLike: "ощущается",
+      humidity: "влажность",
+      windSpeed: "ветер"
+    }
   },
   se: {
     placeHolder: 'Sök',
@@ -64,7 +76,13 @@ const COMMON = {
       dollar: 'Dollar',
       ruble: 'Vitryska rubel'
     },
-    error: 'Oj! Något gick fel!'
+    error: 'Oj! Något gick fel!',
+    weather: {
+      temp: "temperatur",
+      feelsLike: "känt",
+      humidity: "fuktighet",
+      windSpeed: "vind"
+    }
   },
 };
 
