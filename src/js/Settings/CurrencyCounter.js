@@ -20,12 +20,10 @@ export default class CurrencyCounter {
     const localPromise = fetch(CURRENCIESAPIURL(this.country.currencyCode)).then(data => data.json()).then(result => this.local = result);
     Promise.all([euroPromise, dollarPromise, localPromise])
       .then(() => {
-        console.log('CurrencyCounter.js - sucsess:');
         this.currencies.local = (1 / this.local.Cur_OfficialRate * this.local.Cur_Scale);
         this.currencies.euro = (this.euro.Cur_OfficialRate * this.euro.Cur_Scale * this.currencies.local).toFixed(DECIMALPLACESFORCURRENCIES)
         this.currencies.dollar = (this.dollar.Cur_OfficialRate * this.euro.Cur_Scale * this.currencies.local).toFixed(DECIMALPLACESFORCURRENCIES)
         this.currencies.local = this.currencies.local.toFixed(DECIMALPLACESFORCURRENCIES);
-        console.log('CurrencyCounter.js - currencies:', this.currencies);
         updateState();
       }, () => console.log('error'));
   }
