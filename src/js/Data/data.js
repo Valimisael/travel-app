@@ -2,11 +2,16 @@ import { IMAGES, THUMBS, GALLERY, VIDEO, LOGOS} from './media';
 
 const CURRENCIESAPIURL = currencyCode => `https://www.nbrb.by/api/exrates/rates/${currencyCode}?parammode=1`;
 
+const WEATHERKEY = '8e0be7a2327d38ca94a270674c50b6ff';
+const WEATHERAPIURL = (city, lang) => `https://api.openweathermap.org/data/2.5/weather?q=${city}&lang=${lang}&appid=${WEATHERKEY}`;
+const WEATHERICONURL = iconId => `http://openweathermap.org/img/wn/${iconId}@2x.png`;
+
 const DEFAULTLANGUAGE = 'en';
 const DEFAULTCURRENCIESCODES = {
   euro: '978',
   dollar: '840',
 }
+
 const DECIMALPLACESFORCURRENCIES = 2;
 
 const COMMON = {
@@ -290,4 +295,4 @@ const COUNTRIES = [
     year: '2021',
   }
 
-  export { COMMON, COUNTRIES, DEFAULTLANGUAGE, CURRENCIESAPIURL, DEFAULTCURRENCIESCODES, DECIMALPLACESFORCURRENCIES, FOOTER }
+  export { COMMON, COUNTRIES, DEFAULTLANGUAGE, CURRENCIESAPIURL, DEFAULTCURRENCIESCODES, DECIMALPLACESFORCURRENCIES, FOOTER, WEATHERAPIURL, WEATHERICONURL }
