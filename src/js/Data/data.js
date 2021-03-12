@@ -63,7 +63,7 @@ const COMMON = {
       windSpeed: "м/с",
     }
   },
-  se: {
+  sv: {
     placeHolder: 'Sök',
     languages: [
       "Engelska",
@@ -96,6 +96,7 @@ const COUNTRIES = [
       thumb: THUMBS.australiaThumb,
       url: '/australia',
       gallery: GALLERY.australiaGallery,
+      timeZone: 'Australia/Canberra',
       translations: {
         en: {
           country: 'Australia',
@@ -107,7 +108,7 @@ const COUNTRIES = [
           capital: 'Канберра',
           currencyName: 'Австралийских долларов'
         },
-        se: {
+        sv: {
           country: 'Australien',
           capital: 'Canberra',
           currencyName: 'Australiska dollar'
@@ -121,6 +122,7 @@ const COUNTRIES = [
       thumb: THUMBS.brazilThumb,
       url: '/brazil',
       gallery: GALLERY.brazilGallery,
+      timeZone: 'Brazil/East',
       translations: {
         en: {
           country: 'Brazil',
@@ -132,7 +134,7 @@ const COUNTRIES = [
           capital: 'Бразилиа',
           currencyName: 'Бразильских реалов'
         },
-        se: {
+        sv: {
           country: 'Brasilien',
           capital: 'Brasilia',
           currencyName: 'Brasiliansk reais'
@@ -148,6 +150,7 @@ const COUNTRIES = [
       gallery: GALLERY.englandGallery,
       video: VIDEO.greatBritainVideo,
       poster: IMAGES.england,
+      timeZone: 'Europe/London',
       translations: {
         en: {
           country: 'Great Britain',
@@ -161,7 +164,7 @@ const COUNTRIES = [
           description: 'Лорэм ипсум долор сит амет)',
           currencyName: 'Фунтов стерлингов'
         },
-        se: {
+        sv: {
           country: 'Storbritannien',
           capital: 'London',
           description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
@@ -176,6 +179,7 @@ const COUNTRIES = [
       thumb: THUMBS.greeceThumb,
       url: '/greece',
       gallery: GALLERY.greeceGallery,
+      timeZone: 'Europe/Athens',
       translations: {
         en: {
           country: 'Greece',
@@ -187,7 +191,7 @@ const COUNTRIES = [
           capital: 'Афины',
           currencyName: 'Евро'
         },
-        se: {
+        sv: {
           country: 'Grekland',
           capital: 'Aten',
           currencyName: 'Euro'
@@ -201,6 +205,7 @@ const COUNTRIES = [
       thumb: THUMBS.japanThumb,
       url: '/japan',
       gallery: GALLERY.japanGallery,
+      timeZone: 'Japan',
       translations: {
         en: {
           country: 'Japan',
@@ -212,7 +217,7 @@ const COUNTRIES = [
           capital: 'Токио',
           currencyName: 'Иен'
         },
-        se: {
+        sv: {
           country: 'Japan',
           capital: 'Tokyo',
           currencyName: 'Yen'
@@ -226,6 +231,7 @@ const COUNTRIES = [
       thumb: THUMBS.russiaThumb,
       url: '/russia',
       gallery: GALLERY.russiaGallery,
+      timeZone: 'Europe/Moscow',
       translations: {
         en: {
           country: 'Russia',
@@ -237,7 +243,7 @@ const COUNTRIES = [
           capital: 'Москва',
           currencyName: 'Российских рублей'
         },
-        se: {
+        sv: {
           country: 'Ryssland',
           capital: 'Moskva',
           currencyName: 'Ryska rubel'
@@ -251,6 +257,7 @@ const COUNTRIES = [
       thumb: THUMBS.swedenThumb,
       url: '/sweden',
       gallery: GALLERY.swedenGallery,
+      timeZone: 'Europe/Stockholm',
       translations: {
         en: {
           country: 'Sweden',
@@ -262,7 +269,7 @@ const COUNTRIES = [
           capital: 'Стокгольм',
           currencyName: 'Шведских крон'
         },
-        se: {
+        sv: {
           country: 'Sverige',
           capital: 'Stockholm',
           currencyName: 'Svenska kronor'
@@ -276,6 +283,7 @@ const COUNTRIES = [
       thumb: THUMBS.uaeThumb,
       url: '/uae',
       gallery: GALLERY.uaeGallery,
+      timeZone: 'Asia/Dubai',
       translations: {
         en: {
           country: 'UAE',
@@ -287,7 +295,7 @@ const COUNTRIES = [
           capital: 'Абу-Даби',
           currencyName: 'Дирхам ОАЭ'
         },
-        se: {
+        sv: {
           country: 'UAE',
           capital: 'Abu Dhabi',
           currencyName: 'UAE dirham'

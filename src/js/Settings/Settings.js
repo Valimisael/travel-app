@@ -3,7 +3,7 @@ import { DEFAULTLANGUAGE, COMMON } from '../Data/data';
 export default class Settings {
 	constructor() {
 		this.lang = '';
-		this.search ='';
+		this.search = '';
 		this.init();
 	}
 
