@@ -21,10 +21,6 @@ export default class Country extends React.Component {
     const country = this.country;
     const lang = this.settings.lang;
     const data = COMMON[lang];
-    const date = new Date();
-    const weekDay = date.toLocaleDateString(lang, {weekday: 'long'});
-    const month = date.toLocaleDateString(lang, {month: 'long'});
-    const day = date.getDate();
 
     return (
       <main>
@@ -37,7 +33,7 @@ export default class Country extends React.Component {
           </div>
           <div className="country__widgets">
             <Currency settings={this.settings} country={this.country} updateState = {this.updateState} />
-            <DateAndTime country={this.country} settings={this.settings} month={month} day={day} weekDay={weekDay} />
+            <DateAndTime country={this.country} settings={this.settings} />
           </div>
         </div>
       </main>

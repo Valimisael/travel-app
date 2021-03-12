@@ -4,9 +4,6 @@ export default class Settings {
 	constructor() {
 		this.lang = '';
 		this.search = '';
-		this.day = '';
-		this.weekDay = '';
-		this.month = '';
 		this.init();
 	}
 
