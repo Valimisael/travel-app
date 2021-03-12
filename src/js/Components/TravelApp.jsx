@@ -5,6 +5,7 @@ import Home from './Home/Home.jsx';
 import Country from './Country/Country.jsx';
 import { BrowserRouter, Route } from 'react-router-dom';
 import { COUNTRIES } from '../Data/data';
+import ScrollToTop from '../Settings/ScrollToTop';
 
 export default class TravelApp extends React.Component {
   constructor(props) {
@@ -16,6 +17,7 @@ export default class TravelApp extends React.Component {
   render () {
     return (
       <BrowserRouter>
+        <ScrollToTop />
         <div className="wrapper">
           <Header settings={this.settings} updateState={this.updateState}/>
           <Route exact path="/" render={(props) => <Home {...props} settings={this.settings} updateState = {this.updateState} />} />
