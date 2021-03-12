@@ -7,6 +7,7 @@ import Description from './Description.jsx';
 import Gallery from './Gallery.jsx';
 import Video from './Video.jsx';
 import Currency from './Currency.jsx';
+import Weather from './Weather';
 
 export default class Country extends React.Component {
   constructor(props) {
@@ -32,6 +33,7 @@ export default class Country extends React.Component {
           </div>
           <div className="country__widgets">
             <Currency settings={this.settings} country={this.country} updateState = {this.updateState} />
+            <Weather settings={this.settings} country={this.country} updateState = {this.updateState} />
           </div>
         </div>
       </main>
