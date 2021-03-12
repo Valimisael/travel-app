@@ -26,7 +26,7 @@ export default class Weather extends React.Component {
         <div>{weatherTranslations.temp}: {this.weather.temp} °</div>
         <div>{weatherTranslations.feelsLike}: {this.weather.feelsLike} °</div>
         <div>{weatherTranslations.humidity}: {this.weather.humidity} %</div>
-        <div>{weatherTranslations.windSpeed}: {this.weather.windSpeed} м/с</div>
+        <div>{weatherTranslations.wind}: {this.weather.windSpeed} {weatherTranslations.windSpeed}</div>
         <img src = {this.weather.iconURL} alt = 'current weather'/>
       </div>
     )

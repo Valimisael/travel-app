@@ -35,7 +35,8 @@ const COMMON = {
       temp: 'temp',
       feelsLike: 'feels like',
       humidity: 'humidity',
-      windSpeed: 'wind' 
+      wind: 'wind',
+      windSpeed: 'm/s'
     }
   },
   ru: {
@@ -58,7 +59,8 @@ const COMMON = {
       temp: "температура",
       feelsLike: "ощущается",
       humidity: "влажность",
-      windSpeed: "ветер"
+      wind: "ветер",
+      windSpeed: "м/с",
     }
   },
   se: {
@@ -81,7 +83,8 @@ const COMMON = {
       temp: "temperatur",
       feelsLike: "känt",
       humidity: "fuktighet",
-      windSpeed: "vind"
+      wind: "vind",
+      windSpeed: "m/s"
     }
   },
 };
