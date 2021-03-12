@@ -18,7 +18,7 @@ const englandGallery = [
         thumbnailLabel: 'Лондонский глаз',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
-      se: {
+      sv:{
         thumbnailLabel: 'London Eye',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
@@ -36,7 +36,7 @@ const englandGallery = [
         thumbnailLabel: 'Биг-Бен',
         description: 'Лорем ипсум).'
       },
-      se: {
+      sv:{
         thumbnailLabel: 'Big Ben',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
@@ -54,7 +54,7 @@ const englandGallery = [
         thumbnailLabel: 'Букингемский дворец',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
-      se: {
+      sv:{
         thumbnailLabel: 'Buckingham Palace',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
@@ -72,7 +72,7 @@ const englandGallery = [
         thumbnailLabel: 'Лондонский Тауэр',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
-      se: {
+      sv:{
         thumbnailLabel: 'Tower',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
@@ -90,7 +90,7 @@ const englandGallery = [
         thumbnailLabel: 'Тауэрский мост',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
-      se: {
+      sv:{
         thumbnailLabel: 'Bro av Tornet',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
@@ -108,7 +108,7 @@ const englandGallery = [
         thumbnailLabel: 'Вестминстерское аббатство',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
-      se: {
+      sv:{
         thumbnailLabel: 'Westminster Abbey',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },

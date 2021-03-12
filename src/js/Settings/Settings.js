@@ -3,7 +3,10 @@ import { DEFAULTLANGUAGE, COMMON } from '../Data/data';
 export default class Settings {
 	constructor() {
 		this.lang = '';
-		this.search ='';
+		this.search = '';
+		this.day = '';
+		this.weekDay = '';
+		this.month = '';
 		this.init();
 	}
 

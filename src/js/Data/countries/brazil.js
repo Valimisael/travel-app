@@ -18,7 +18,7 @@ const brazilGallery = [
         thumbnailLabel: 'Рорайма',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
-      se: {
+      sv:{
         thumbnailLabel: 'Roraima',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
@@ -36,7 +36,7 @@ const brazilGallery = [
         thumbnailLabel: 'Статуя Христа-Искупителя',
         description: 'Лорем ипсум).'
       },
-      se: {
+      sv:{
         thumbnailLabel: 'Staty av Kristus Frälsaren',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
@@ -54,7 +54,7 @@ const brazilGallery = [
         thumbnailLabel: 'Кафедральный собор',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
-      se: {
+      sv:{
         thumbnailLabel: 'Katedral',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
@@ -72,7 +72,7 @@ const brazilGallery = [
         thumbnailLabel: 'Фернанду-ди-Норонья',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
-      se: {
+      sv:{
         thumbnailLabel: 'Fernando de Noronha',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
@@ -90,7 +90,7 @@ const brazilGallery = [
         thumbnailLabel: 'Игуасу',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
-      se: {
+      sv:{
         thumbnailLabel: 'Iguazu',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
@@ -108,7 +108,7 @@ const brazilGallery = [
         thumbnailLabel: 'Маракана',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
-      se: {
+      sv:{
         thumbnailLabel: 'Maracana',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },

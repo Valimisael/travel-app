@@ -18,7 +18,7 @@ const russiaGallery = [
         thumbnailLabel: 'Байкал',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
-      se: {
+      sv:{
         thumbnailLabel: 'Baikal',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
@@ -36,7 +36,7 @@ const russiaGallery = [
         thumbnailLabel: 'Исаакиевский собор',
         description: 'Лорем ипсум).'
       },
-      se: {
+      sv:{
         thumbnailLabel: 'Saint Isaac\'s Cathedral',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
@@ -54,7 +54,7 @@ const russiaGallery = [
         thumbnailLabel: 'Храм Василия Блаженного',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
-      se: {
+      sv:{
         thumbnailLabel: 'St Basil\'s Church',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
@@ -72,7 +72,7 @@ const russiaGallery = [
         thumbnailLabel: 'Эрмитаж',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
-      se: {
+      sv:{
         thumbnailLabel: 'Hermitage Museum',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
@@ -90,7 +90,7 @@ const russiaGallery = [
         thumbnailLabel: 'Москва-Сити',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
-      se: {
+      sv:{
         thumbnailLabel: 'Moskva stad',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
@@ -108,7 +108,7 @@ const russiaGallery = [
         thumbnailLabel: 'Большой театр',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
-      se: {
+      sv:{
         thumbnailLabel: 'Stor Teater',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },

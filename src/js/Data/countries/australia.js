@@ -18,7 +18,7 @@ const australiaGallery = [
         thumbnailLabel: 'Голубые горы',
         description: 'Лорем ипсум).'
       },
-      se: {
+      sv:{
         thumbnailLabel: 'Blue Mountains',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
@@ -36,7 +36,7 @@ const australiaGallery = [
         thumbnailLabel: 'Большой Барьерный риф',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
-      se: {
+      sv:{
         thumbnailLabel: 'Stora Barriärrevet',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
@@ -54,7 +54,7 @@ const australiaGallery = [
         thumbnailLabel: 'Харбор-Бридж',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
-      se: {
+      sv:{
         thumbnailLabel: 'Harbour Bridge',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
@@ -72,7 +72,7 @@ const australiaGallery = [
         thumbnailLabel: 'Муррей',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
-      se: {
+      sv:{
         thumbnailLabel: 'Murray',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
@@ -90,7 +90,7 @@ const australiaGallery = [
         thumbnailLabel: 'Сиднейский оперный театр',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
-      se: {
+      sv:{
         thumbnailLabel: 'Operahuset i Sydney',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
@@ -108,7 +108,7 @@ const australiaGallery = [
         thumbnailLabel: 'Улуру',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
-      se: {
+      sv:{
         thumbnailLabel: 'Uluru',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },

@@ -18,7 +18,7 @@ const greeceGallery = [
         thumbnailLabel: 'Афинский Акрополь',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
-      se: {
+      sv:{
         thumbnailLabel: 'Akropolis i Aten',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
@@ -36,7 +36,7 @@ const greeceGallery = [
         thumbnailLabel: 'Крит',
         description: 'Лорем ипсум).'
       },
-      se: {
+      sv:{
         thumbnailLabel: 'Kreta',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
@@ -54,7 +54,7 @@ const greeceGallery = [
         thumbnailLabel: 'Монастыри Метеоры',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
-      se: {
+      sv:{
         thumbnailLabel: 'Meteora kloster',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
@@ -72,7 +72,7 @@ const greeceGallery = [
         thumbnailLabel: 'Парфенон',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
-      se: {
+      sv:{
         thumbnailLabel: 'Parthenon',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
@@ -90,7 +90,7 @@ const greeceGallery = [
         thumbnailLabel: 'Санторин',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
-      se: {
+      sv:{
         thumbnailLabel: 'Santorini',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
@@ -108,7 +108,7 @@ const greeceGallery = [
         thumbnailLabel: 'Храм Зевса в Олимпии',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
-      se: {
+      sv:{
         thumbnailLabel: 'Zeustemplet vid Olympia',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
