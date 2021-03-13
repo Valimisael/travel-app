@@ -1,7 +1,7 @@
 import React from 'react';
 import './Footer.scss';
 
-import { FOOTER } from '../../Data/data';
+import { FOOTER } from '../../../Data/data';
 
 export default function Footer() {
   const author = FOOTER.author;

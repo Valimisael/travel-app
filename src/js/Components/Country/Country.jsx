@@ -2,13 +2,13 @@ import React from 'react';
 import './Country.scss';
 
 import { COMMON } from '../../Data/data';
-import Hero from './Hero.jsx';
-import Description from './Description.jsx';
-import Gallery from './Gallery.jsx';
-import Video from './Video.jsx';
-import Currency from './Currency.jsx';
-import DateAndTime from './Date/DateAndTime.jsx';
-import Weather from './Weather';
+import Hero from './Hero/Hero.jsx';
+import Description from './Description/Description.jsx';
+import Gallery from './Gallery/Gallery.jsx';
+import Video from './Video/Video.jsx';
+import Currency from './Currency/Currency.jsx';
+import DateAndTime from './DateAndTime/DateAndTime.jsx';
+import Weather from './Weather/Weather.jsx';
 
 export default class Country extends React.Component {
   constructor(props) {
@@ -33,9 +33,9 @@ export default class Country extends React.Component {
             <Video video={data.video} country={country} />
           </div>
           <div className="country__widgets">
-            <Currency settings={this.settings} country={this.country} updateState = {this.updateState} />
             <DateAndTime country={this.country} settings={this.settings} />
             <Weather settings={this.settings} country={this.country} updateState = {this.updateState} />
+            <Currency settings={this.settings} country={this.country} updateState = {this.updateState} />
           </div>
         </div>
       </main>

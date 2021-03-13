@@ -2,10 +2,10 @@ import React from 'react';
 import './Header.scss';
 
 import { Route } from 'react-router-dom';
-import { LOGOS} from '../../Data/media';
-import { COMMON } from '../../Data/data';
+import { LOGOS} from '../../../Data/media';
+import { COMMON } from '../../../Data/data';
 import { NavLink } from 'react-router-dom';
-import Search from './Search/Search';
+import Search from '../Search/Search';
 
 export default class Header extends React.Component {
   constructor(props) {

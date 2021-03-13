@@ -35,11 +35,18 @@
   &__description,
   &__gallery,
   &__video,
-  &__currency {
+  &__widgets {
     padding: 20px;
     
-    @media (min-width: 768px) {
+    @media (min-width: 1024px) {
       padding: 50px;
+    }
+  }
+
+  &__widgets {
+    
+    @media (min-width: 1024px) {
+      padding-left: 0;
     }
   }
 }
