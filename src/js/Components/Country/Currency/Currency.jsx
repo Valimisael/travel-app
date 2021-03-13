@@ -1,7 +1,7 @@
 import React from 'react';
 import './Currency.scss';
 
-import CurrencyCounter from '../../Settings/CurrencyCounter';
+import CurrencyCounter from '../../../Settings/CurrencyCounter';
 
 export default class Currency extends React.Component {
   constructor(props) {
@@ -24,8 +24,7 @@ export default class Currency extends React.Component {
         <table className="country__currency-table">
           <thead>
             <tr>
-              <th></th>
-              <th>{this.currency.localCurrencyName}</th>
+              <th colSpan="2">{this.currency.localCurrencyName}</th>
             </tr>
           </thead>
           <tbody>

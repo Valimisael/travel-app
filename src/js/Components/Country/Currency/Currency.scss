@@ -1,0 +1,36 @@
+@import '../../../../css/base/variables.scss';
+
+.country__currency {
+  border-bottom: 5px solid $color-blue;
+  border-radius: 20px;
+  overflow: hidden;
+
+  &-table {
+    font-size: $font-size;
+    width: 100%;
+
+    @media (min-width: 1024px) {
+      font-size: $font-size-18;
+    }
+  
+    thead tr {
+      background-color: $color-blue;
+      color: $color-white;
+    }
+  
+    th, 
+    td {
+      padding: 10px;
+      text-align: left;
+    }
+  
+    tr {
+      background-color: $color-white;
+  
+      &:nth-child(even) {
+        background-color: $color-light-blue;
+        color: $color-white;
+      }
+    }
+  }
+}

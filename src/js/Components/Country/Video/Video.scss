@@ -1,8 +1,11 @@
-@import '../../../css/base/variables.scss';
+@import '../../../../css/base/variables.scss';
+@import '../../../../css/base/extends.scss';
 
 .video-react {
   .video-react-poster {
     background-size: cover;
+
+    @extend %gradient;
   }
 
   .video-react-big-play-button {

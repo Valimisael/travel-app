@@ -1,0 +1,38 @@
+@import '../../../../css/base/variables.scss';
+@import '../../../../css/base/extends.scss';
+
+.country__date-and-time {
+  margin-bottom: 20px;
+
+  @media (min-width: 768px) {
+    margin-bottom: 50px;
+  }
+
+  .date-and-time {
+    background-color: $color-yellow;
+    
+    @extend %widget;
+  }
+
+  .time {
+    font-size: $font-size-36;
+    margin-bottom: 15px;
+
+    @media (min-width: 1024px) {
+      font-size: $font-size-48;
+    }
+  }
+
+  .date,
+  .day {
+    font-size: $font-size;
+
+    @media (min-width: 1024px) {
+      font-size: $font-size-18;
+    }
+
+    &::first-letter {
+      text-transform: uppercase;
+    }
+  }
+}

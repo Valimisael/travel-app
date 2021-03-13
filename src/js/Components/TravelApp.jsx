@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from './Common/Header.jsx';
-import Footer from './Common/Footer.jsx';
+import Header from './Common/Header/Header.jsx';
+import Footer from './Common/Footer/Footer.jsx';
 import Home from './Home/Home.jsx';
 import Country from './Country/Country.jsx';
 import { BrowserRouter, Route } from 'react-router-dom';

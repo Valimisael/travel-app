@@ -2,7 +2,7 @@ import React from 'react';
 import ImageGallery from 'react-image-gallery';
 import './Gallery.scss';
 
-import TranslateGallery from  '../../Settings/TranslateGallery';
+import TranslateGallery from  '../../../Settings/TranslateGallery';
 
 export default function Gallery(props) {
   const {title, images, settings} = props;
