@@ -1,5 +1,6 @@
 import React from 'react';
 import './Search.scss';
+import { COMMON } from '../../../../Data/data';
 
 export default class Search extends React.Component {
   constructor(props) {
@@ -33,7 +34,7 @@ export default class Search extends React.Component {
   }
 
   render () {
-    const {placeHolder} = this.props;
+    const placeHolder = COMMON[this.settings.lang].placeHolder;
   
     return (
       <div className="header__item search">

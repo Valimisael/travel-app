@@ -1,4 +1,4 @@
-import { IMAGES, THUMBS, GALLERY, VIDEO, LOGOS} from './media';
+import { IMAGES, THUMBS, GALLERY, VIDEO, LOGOS } from './media';
 
 const CURRENCIESAPIURL = currencyCode => `https://www.nbrb.by/api/exrates/rates/${currencyCode}?parammode=1`;
 
