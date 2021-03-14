@@ -1,4 +1,4 @@
-import { DEFAULTLANGUAGE, CURRENCIESAPIURL, COMMON, DEFAULTCURRENCIESCODES, DECIMALPLACESFORCURRENCIES } from "../Data/data";
+import { DEFAULTLANGUAGE, CURRENCIESAPIURL, COMMON, DEFAULTCURRENCIESCODES, DECIMALPLACESFORCURRENCIES, CURRENCIES_ADDITIONAL_URL, DEFAULT_SHORT_CURRENCIES_CODES} from "../Data/data";
 
 export default class CurrencyCounter {
   constructor(lang = DEFAULTLANGUAGE, country, updateState) {
@@ -11,10 +11,11 @@ export default class CurrencyCounter {
 
     };
     this.updateLanguage(lang);
-    this.init(updateState);
+    this.init();
+    this.updateState = updateState;
   }
 
-  init(updateState) {
+  init() {
     const euroPromise = fetch(CURRENCIESAPIURL(DEFAULTCURRENCIESCODES.euro)).then(data => data.json()).then(result => this.euro = result);
     const dollarPromise = fetch(CURRENCIESAPIURL(DEFAULTCURRENCIESCODES.dollar)).then(data => data.json()).then(result => this.dollar = result);
     const localPromise = fetch(CURRENCIESAPIURL(this.country.currencyCode)).then(data => data.json()).then(result => this.local = result);
@@ -24,8 +25,21 @@ export default class CurrencyCounter {
         this.currencies.euro = (this.euro.Cur_OfficialRate * this.euro.Cur_Scale * this.currencies.local).toFixed(DECIMALPLACESFORCURRENCIES)
         this.currencies.dollar = (this.dollar.Cur_OfficialRate * this.euro.Cur_Scale * this.currencies.local).toFixed(DECIMALPLACESFORCURRENCIES)
         this.currencies.local = this.currencies.local.toFixed(DECIMALPLACESFORCURRENCIES);
-        updateState();
-      }, () => console.log('error'));
+        this.updateState();
+      }, () => this.useAdditionalService());
+  }
+
+  useAdditionalService() {
+    console.warn(COMMON[this.lang].currenciesApiUrlError);
+    fetch(CURRENCIES_ADDITIONAL_URL(this.country.currencyShortCode))
+    .then(result => result.json())
+    .then(data => {
+      const rates = data.conversion_rates;
+      this.currencies.euro = (1/rates[DEFAULT_SHORT_CURRENCIES_CODES.euro]).toFixed(DECIMALPLACESFORCURRENCIES);
+      this.currencies.dollar = (1/rates[DEFAULT_SHORT_CURRENCIES_CODES.dollar]).toFixed(DECIMALPLACESFORCURRENCIES);
+      this.currencies.local = (1/rates[DEFAULT_SHORT_CURRENCIES_CODES.ruble]).toFixed(DECIMALPLACESFORCURRENCIES);
+      this.updateState();
+    });
   }
 
   updateLanguage(lang) {
