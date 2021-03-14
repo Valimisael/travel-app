@@ -15,7 +15,11 @@
   }
 
   &__item {
-    margin: 0 20px;
+    margin: 5px 20px;
+
+    @media (min-width: 768px) {
+      margin: 0 20px;
+    }
   }
 }
 .settings {
