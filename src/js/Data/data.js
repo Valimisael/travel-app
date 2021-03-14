@@ -1,6 +1,7 @@
 import { IMAGES, THUMBS, GALLERY, VIDEO, LOGOS } from './media';
 
 const CURRENCIESAPIURL = currencyCode => `https://www.nbrb.by/api/exrates/rates/${currencyCode}?parammode=1`;
+const CURRENCIES_ADDITIONAL_URL = code => `https://v6.exchangerate-api.com/v6/0b88ab07f0347d5c0d6e14ab/latest/${code}`;
 
 const WEATHERKEY = '8e0be7a2327d38ca94a270674c50b6ff';
 const WEATHERAPIURL = (city, lang) => `https://api.openweathermap.org/data/2.5/weather?q=${city}&lang=${lang}&appid=${WEATHERKEY}`;
@@ -10,7 +11,15 @@ const DEFAULTLANGUAGE = 'en';
 const DEFAULTCURRENCIESCODES = {
   euro: '978',
   dollar: '840',
-}
+};
+
+const DEFAULT_SHORT_CURRENCIES_CODES = {
+  euro: 'EUR',
+  dollar: 'USD',
+  ruble: 'BYN'
+};
+
+
 
 const DECIMALPLACESFORCURRENCIES = 2;
 
@@ -31,6 +40,7 @@ const COMMON = {
       ruble: 'Belorussian Ruble'
     },
     error: 'Ooops! Something went wrong!',
+    currenciesApiUrlError: 'Primary exchange rate provider has closed the connection, a request has been sent to an alternative.',
     weather : {
       temp: 'temp',
       feelsLike: 'feels like',
@@ -55,6 +65,7 @@ const COMMON = {
       ruble: 'Белорусский рубль'
     },
     error: 'Ой-ой! Что-то пошло не так!',
+    currenciesApiUrlError: 'Основной поставщик курсов валют закрыл соединение, направлен запрос альтернативному.',
     weather: {
       temp: "температура",
       feelsLike: "ощущается",
@@ -79,6 +90,7 @@ const COMMON = {
       ruble: 'Vitryska rubel'
     },
     error: 'Oj! Något gick fel!',
+    currenciesApiUrlError: 'Primär växelkursleverantör har stängt anslutningen, en begäran har skickats till ett alternativ.',
     weather: {
       temp: "temperatur",
       feelsLike: "känt",
@@ -117,7 +129,8 @@ const COUNTRIES = [
           currencyName: 'Australiska dollar'
         }
       },
-      currencyCode: '036'
+      currencyCode: '036',
+      currencyShortCode: 'AUD'
     },
     {
       name: 'brazil',
@@ -146,7 +159,8 @@ const COUNTRIES = [
           currencyName: 'Brasiliansk reais'
         }
       },
-      currencyCode: '986'
+      currencyCode: '986',
+      currencyShortCode: 'BRL'
     },
     {
       name: 'great-britain',
@@ -177,7 +191,8 @@ const COUNTRIES = [
           currencyName: 'Pund'
         },
       },
-      currencyCode: '826'
+      currencyCode: '826',
+      currencyShortCode: 'GBP'
     },
     {
       name: 'greece',
@@ -206,7 +221,8 @@ const COUNTRIES = [
           currencyName: 'Euro'
         }
       },
-      currencyCode: '978'
+      currencyCode: '978',
+      currencyShortCode: 'EUR'
     },
     {
       name: 'japan',
@@ -235,7 +251,8 @@ const COUNTRIES = [
           currencyName: 'Yen'
         }
       },
-      currencyCode: '392'
+      currencyCode: '392',
+      currencyShortCode: 'GPY'
     },
     {
       name: 'russia',
@@ -264,7 +281,8 @@ const COUNTRIES = [
           currencyName: 'Ryska rubel'
         }
       },
-      currencyCode: '643'
+      currencyCode: '643',
+      currencyShortCode: 'RUB'
     },
     {
       name: 'sweden',
@@ -293,7 +311,8 @@ const COUNTRIES = [
           currencyName: 'Svenska kronor'
         }
       },
-      currencyCode: '752'
+      currencyCode: '752',
+      currencyShortCode: 'SEK'
     },
     {
       name: 'uae',
@@ -322,7 +341,8 @@ const COUNTRIES = [
           currencyName: 'UAE dirham'
         }
       },
-      currencyCode: '784'
+      currencyCode: '784',
+      currencyShortCode: 'AED'
     },
   ]
 
@@ -345,4 +365,4 @@ const COUNTRIES = [
     year: '2021',
   }
 
-  export { COMMON, COUNTRIES, DEFAULTLANGUAGE, CURRENCIESAPIURL, DEFAULTCURRENCIESCODES, DECIMALPLACESFORCURRENCIES, FOOTER, WEATHERAPIURL, WEATHERICONURL }
+  export { COMMON, COUNTRIES, DEFAULTLANGUAGE, CURRENCIESAPIURL, DEFAULTCURRENCIESCODES, DECIMALPLACESFORCURRENCIES, FOOTER, WEATHERAPIURL, WEATHERICONURL, CURRENCIES_ADDITIONAL_URL, DEFAULT_SHORT_CURRENCIES_CODES }
