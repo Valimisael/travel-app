@@ -15,7 +15,11 @@
   }
 
   &__item {
-    margin: 0 20px;
+    margin: 5px 20px;
+
+    @media (min-width: 768px) {
+      margin: 0 20px;
+    }
   }
 }
 .settings {
@@ -36,23 +40,5 @@
     max-height: 70px;
     object-fit: cover;
     object-position: center;
-  }
-}
-
-.localization {
-  text-align: right;
-
-  select {
-    border: 2px solid $color-blue;
-    border-radius: 25px;
-    height: 40px;
-    color: $color-blue;
-    padding: 0 10px;
-    font-family: $font-family;
-    width: 100%;
-
-    @media (min-width: 768px) {
-      width: 125px;
-    }
   }
 }

@@ -28,6 +28,10 @@ import { russiaGallery } from '../Data/countries/russia';
 import { swedenGallery } from '../Data/countries/sweden';
 import { uaeGallery } from '../Data/countries/uae';
 
+import en from '../../img/icons/en.png';
+import ru from '../../img/icons/ru.png';
+import sv from '../../img/icons/sv.png';
+
 import greatBritainVideo from '../../video/Great Britain.mp4';
 
 export const IMAGES = {
@@ -71,3 +75,9 @@ export const LOGOS = {
   headerLogo,
   footerLogo
 };
+
+export const ICONS = [
+  en,
+  ru,
+  sv
+];
