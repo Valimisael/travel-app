@@ -34,6 +34,7 @@ const COMMON = {
     about: 'About country',
     inPhotos: 'in photos',
     video: 'Video tour',
+    map: 'on the map',
     currencies: {
       euro: "Euro",
       dollar: 'Dollar',
@@ -59,6 +60,7 @@ const COMMON = {
     about: 'О стране',
     inPhotos: 'в фотографиях',
     video: 'Видео-тур',
+    map: 'на карте',
     currencies: {
       euro: "Евро",
       dollar: 'Доллар',
@@ -84,6 +86,7 @@ const COMMON = {
     about: 'Om landet',
     inPhotos: 'på fotografier',
     video: 'Videoturnér',
+    map: 'på kartan',
     currencies: {
       euro: "Euro",
       dollar: 'Dollar',
@@ -109,6 +112,8 @@ const COUNTRIES = [
       url: '/australia',
       gallery: GALLERY.australiaGallery,
       timeZone: 'Australia/Canberra',
+      geo: [-35.2835, 149.128],
+      zoom: 11,
       translations: {
         en: {
           country: 'Australia',
@@ -139,6 +144,8 @@ const COUNTRIES = [
       url: '/brazil',
       gallery: GALLERY.brazilGallery,
       timeZone: 'Brazil/East',
+      geo: [-15.7797, -47.9297],
+      zoom: 10,
       translations: {
         en: {
           country: 'Brazil',
@@ -171,6 +178,8 @@ const COUNTRIES = [
       video: VIDEO.greatBritainVideo,
       poster: IMAGES.england,
       timeZone: 'Europe/London',
+      geo: [51.5085, -0.12574],
+      zoom: 10,
       translations: {
         en: {
           country: 'Great Britain',
@@ -201,6 +210,8 @@ const COUNTRIES = [
       url: '/greece',
       gallery: GALLERY.greeceGallery,
       timeZone: 'Europe/Athens',
+      geo: [37.9838, 23.7278],
+      zoom: 12,
       translations: {
         en: {
           country: 'Greece',
@@ -231,6 +242,8 @@ const COUNTRIES = [
       url: '/japan',
       gallery: GALLERY.japanGallery,
       timeZone: 'Japan',
+      geo: [35.6895, 139.692],
+      zoom: 9,
       translations: {
         en: {
           country: 'Japan',
@@ -261,6 +274,8 @@ const COUNTRIES = [
       url: '/russia',
       gallery: GALLERY.russiaGallery,
       timeZone: 'Europe/Moscow',
+      geo: [55.7522, 37.6156],
+      zoom: 10,
       translations: {
         en: {
           country: 'Russia',
@@ -291,6 +306,8 @@ const COUNTRIES = [
       url: '/sweden',
       gallery: GALLERY.swedenGallery,
       timeZone: 'Europe/Stockholm',
+      geo: [59.3326, 18.0649],
+      zoom: 11,
       translations: {
         en: {
           country: 'Sweden',
@@ -321,6 +338,8 @@ const COUNTRIES = [
       url: '/uae',
       gallery: GALLERY.uaeGallery,
       timeZone: 'Asia/Dubai',
+      geo: [24.4667, 54.3667],
+      zoom: 12,
       translations: {
         en: {
           country: 'UAE',
