@@ -12,15 +12,15 @@ const swedenGallery = [
     translations: {
       en: {
         thumbnailLabel: 'Globe Arena',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'The largest spherical structure in the world, a venue for concerts and sporting events.'
       },
       ru: {
         thumbnailLabel: 'Глобен-Арена',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Крупнейшее сферическое сооружение в мире, место проведения концертов и спортивных мероприятий.'
       },
       sv:{
         thumbnailLabel: 'Globen Arena',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Den största sfäriska strukturen i världen, en plats för konserter och sportevenemang.'
       },
     }
   },
@@ -30,15 +30,15 @@ const swedenGallery = [
     translations: {
       en: {
         thumbnailLabel: 'Øresund Bridge',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Combined bridge-tunnel, including a double-track railway and a four-lane highway. Connects Denmark and Sweden.'
       },
       ru: {
         thumbnailLabel: 'Эресуннский мост',
-        description: 'Лорем ипсум).'
+        description: 'Совмещённый мост-тоннель, включающий двухпутную железную дорогу и четырёхполосную автомагистраль. Соединяет Данию и Швецию.'
       },
       sv:{
         thumbnailLabel: 'Øresundsbron',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Kombinerad brotunnel, inklusive en dubbelspårig järnväg och en fyrfältig motorväg. Ansluter Danmark och Sverige.'
       },
     }
   },
@@ -48,15 +48,15 @@ const swedenGallery = [
     translations: {
       en: {
         thumbnailLabel: 'Kalmar Castle',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'One of the most significant works of Northern European fortification art of the Renaissance.'
       },
       ru: {
         thumbnailLabel: 'Кальмарский замок',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Одно из наиболее значительных произведений североевропейского фортификационного искусства эпохи Ренессанса.'
       },
       sv:{
         thumbnailLabel: 'Kalmar slott',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Ett av de mest betydelsefulla verken av nordeuropeisk befästningskonst under renässansen.'
       },
     }
   },
@@ -66,15 +66,15 @@ const swedenGallery = [
     translations: {
       en: {
         thumbnailLabel: 'Stockholm City Hall',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'The symbol of the Swedish capital, banquets and balls in honor of the Nobel laureates are held here.'
       },
       ru: {
         thumbnailLabel: 'Стокгольмская ратуша',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Символ шведской столицы, здесь устраиваются банкеты и балы в честь Нобелевских лауретов.'
       },
       sv:{
         thumbnailLabel: 'Stockholms stadshus',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Här hålls symbolen för den svenska huvudstaden, banketter och bollar för att hedra Nobelpristagarna.'
       },
     }
   },
@@ -84,15 +84,15 @@ const swedenGallery = [
     translations: {
       en: {
         thumbnailLabel: 'Royal Palace in Stockholm',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'The official residence of the Swedish monarchs on the front promenade of Stadholmen Island in the center of Stockholm.'
       },
       ru: {
         thumbnailLabel: 'Королевский дворец в Стокгольме',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Официальная резиденция шведских монархов на парадной набережной острова Стадхольмен в центре Стокгольма.'
       },
       sv:{
         thumbnailLabel: 'Kungliga slottet i Stockholm',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'De svenska monarkernas officiella bostad på strandpromenaden på Stadholmen Island i centrala Stockholm.'
       },
     }
   },
@@ -102,15 +102,15 @@ const swedenGallery = [
     translations: {
       en: {
         thumbnailLabel: 'Turning Torso',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'The Turning Torso is a neo-futurist residential skyscraper in Sweden and the tallest building in Scandinavia.'
       },
       ru: {
         thumbnailLabel: 'Turning Torso',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Небоскреб Turning Torso (Закрученный Торс) - это неофутурист жилой небоскреб в Швеции и самое высокое здание в Скандинавии.'
       },
       sv:{
         thumbnailLabel: 'Vrid torso',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Turning Torso är en nyfuturistisk bostadsskyskrapa i Sverige och den högsta byggnaden i Skandinavien.'
       },
     }
   }

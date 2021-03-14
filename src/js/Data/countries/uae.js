@@ -12,15 +12,15 @@ const uaeGallery = [
     translations: {
       en: {
         thumbnailLabel: 'Burj Al Arab',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'The hotel in Dubai, stands in the sea at a distance of 280 meters from the coast on an artificial island.'
       },
       ru: {
         thumbnailLabel: 'Бурдж аль-Араб',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Отель в Дубае, стоит в море на расстоянии 280 метров от берега на искусственном острове.'
       },
       sv:{
         thumbnailLabel: 'Burj Al Arab',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Hotellet i Dubai ligger i havet på ett avstånd av 280 meter från kusten på en konstgjord ö.'
       },
     }
   },
@@ -30,15 +30,15 @@ const uaeGallery = [
     translations: {
       en: {
         thumbnailLabel: 'Burj Khalifa',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'The tallest and most multi-storey building, the tallest structure, the only 828-meter and 163-storey skyscraper in the world.'
       },
       ru: {
         thumbnailLabel: 'Бурдж-Халифа',
-        description: 'Лорем ипсум).'
+        description: 'Самое высокое и самое многоэтажное здание, самое высокое сооружение, единственный 828-метровый и 163-этажный небоскрёб в мире.'
       },
       sv:{
         thumbnailLabel: 'Burj Khalifa',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Den högsta och mest flervåningsiga byggnaden, den högsta strukturen, den enda skyskrapan med 828 meter och 163 våningar i världen.'
       },
     }
   },
@@ -48,15 +48,15 @@ const uaeGallery = [
     translations: {
       en: {
         thumbnailLabel: 'Fountain Dubai',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'A musical fountain located in an artificial lake with an area of over 12 hectares next to the Burj Khalifa in the center of Dubai.'
       },
       ru: {
         thumbnailLabel: 'Фонтан Дубай',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Музыкальный фонтан, расположенный в искусственном озере площадью свыше 12 га рядом с небоскрёбом Бурдж-Халифа в центре Дубая.'
       },
       sv:{
         thumbnailLabel: 'Fontän Dubai',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'En musikalisk fontän belägen i en konstgjord sjö med ett område på över 12 hektar bredvid Burj Khalifa i centrala Dubai.'
       },
     }
   },
@@ -66,15 +66,15 @@ const uaeGallery = [
     translations: {
       en: {
         thumbnailLabel: 'Sheikh Zayed Mosque',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'One of the six largest mosques in the world.'
       },
       ru: {
         thumbnailLabel: 'Мечеть шейха Зайда',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Одна из шести самых больших мечетей в мире.'
       },
       sv:{
         thumbnailLabel: 'Sheikh Zayed-moskén',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'En av de sex största moskéerna i världen.'
       },
     }
   },
@@ -84,15 +84,15 @@ const uaeGallery = [
     translations: {
       en: {
         thumbnailLabel: 'Palm Jumeirah',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'The world\'s largest artificial island, shaped like palm tree petals.'
       },
       ru: {
         thumbnailLabel: 'Пальма Джумейра',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Самый большой в мире искусственный остров, по форме напоминающий лепестки пальмы.'
       },
       sv:{
         thumbnailLabel: 'Palm Jumeirah',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Världens största konstgjorda ö, formad som palmblad.'
       },
     }
   },
@@ -102,15 +102,15 @@ const uaeGallery = [
     translations: {
       en: {
         thumbnailLabel: 'Ski Dubai',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Amusement park and the first ski complex in the Middle East under the roof and one of the largest in the world with an area of about 22.5 thousand square meters'
       },
       ru: {
         thumbnailLabel: 'Ski Dubai',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Парк развлечений и первый горнолыжный комплекс на Ближнем Востоке под крышей и один из крупнейших в мире с площадью около 22,5 тыс. м²'
       },
       sv:{
         thumbnailLabel: 'Ski Dubai',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Nöjespark och det första skidkomplexet i Mellanöstern under taket och en av de största i världen med ett område på cirka 22,5 tusen kvadratmeter'
       },
     }
   }
