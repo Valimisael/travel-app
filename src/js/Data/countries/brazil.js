@@ -12,15 +12,15 @@ const brazilGallery = [
     translations: {
       en: {
         thumbnailLabel: 'Mount Roraima',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Being on Roraima is like being on a desert island. Only instead of the blue waters of the sea, the tepui is surrounded by an ocean of milky white clouds.'
       },
       ru: {
         thumbnailLabel: 'Рорайма',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Нахождение на Рорайме можно сравнить с пребыванием на необитаемом острове. Только вместо синих вод моря тепуи окружает океан молочно-белых облаков.'
       },
       sv:{
         thumbnailLabel: 'Roraima',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Att vara på Roraima är som att vara på en öde ö. Endast istället för det blå vattnet i havet är tepui omgiven av ett hav av mjölkvita moln.'
       },
     }
   },
@@ -30,15 +30,15 @@ const brazilGallery = [
     translations: {
       en: {
         thumbnailLabel: 'Christ the Redeemer',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Installed on top of the Corcovado mountain in the capital of Brazil, Rio de Janeiro. It is considered a symbol of the city and the whole country.'
       },
       ru: {
         thumbnailLabel: 'Статуя Христа-Искупителя',
-        description: 'Лорем ипсум).'
+        description: 'Установлена на вершине горы Корковаду в столице Бразилии Рио-де-Жанейро. Она считается символом города и всей страны.'
       },
       sv:{
         thumbnailLabel: 'Staty av Kristus Frälsaren',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Installerad ovanpå berget Corcovado i huvudstaden i Brasilien, Rio de Janeiro. Det anses vara en symbol för staden och hela landet.'
       },
     }
   },
@@ -48,15 +48,15 @@ const brazilGallery = [
     translations: {
       en: {
         thumbnailLabel: 'Cathedral of Brasilia',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'This is not only one of the most famous landmarks of the city, but also the first architectural structure that was built in it.'
       },
       ru: {
         thumbnailLabel: 'Кафедральный собор',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Это не только одна из самых знаменитых достопримечательностей города, но и первое архитектурное сооружение, которое было в нём построено.'
       },
       sv:{
         thumbnailLabel: 'Katedral',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Detta är inte bara ett av stadens mest kända landmärken utan också den första arkitektoniska strukturen som byggdes i den.'
       },
     }
   },
@@ -66,15 +66,15 @@ const brazilGallery = [
     translations: {
       en: {
         thumbnailLabel: 'Fernando de Noronha',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'An archipelago of volcanic origin, located about 350 kilometers from the northeastern coast of Brazil.'
       },
       ru: {
         thumbnailLabel: 'Фернанду-ди-Норонья',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Архипелаг вулканического происхождения, расположенный примерно в 350 километрах от северо-восточного побережья Бразилии.'
       },
       sv:{
         thumbnailLabel: 'Fernando de Noronha',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'En skärgård av vulkaniskt ursprung, som ligger cirka 350 kilometer från den nordöstra kusten i Brasilien.'
       },
     }
   },
@@ -84,15 +84,15 @@ const brazilGallery = [
     translations: {
       en: {
         thumbnailLabel: 'Iguazu Falls',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'A complex of 275 waterfalls on the Iguazu River, located on the border of Brazil and Argentina.'
       },
       ru: {
         thumbnailLabel: 'Игуасу',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Комплекс из 275 водопадов на реке Игуасу, расположенный на границе Бразилии и Аргентины.'
       },
       sv:{
         thumbnailLabel: 'Iguazu',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Ett komplex med 275 vattenfall vid floden Iguazu, belägen vid gränsen mellan Brasilien och Argentina.'
       },
     }
   },
@@ -102,15 +102,15 @@ const brazilGallery = [
     translations: {
       en: {
         thumbnailLabel: 'Maracana Stadium',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'The largest stadium in Brazil. Until recently, it has been the most capacious arena in the world.'
       },
       ru: {
         thumbnailLabel: 'Маракана',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Крупнейший стадион Бразилии. До недавнего времени – самая вместительная арена мира.'
       },
       sv:{
         thumbnailLabel: 'Maracana',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Den största arenan i Brasilien. Fram till nyligen har det varit den mest rymliga arenan i världen.'
       },
     }
   }

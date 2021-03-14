@@ -12,15 +12,15 @@ const russiaGallery = [
     translations: {
       en: {
         thumbnailLabel: 'Baikal',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'A lake of tectonic origin in the southern part of Eastern Siberia, the deepest lake on the planet, the largest natural reservoir of fresh water.'
       },
       ru: {
         thumbnailLabel: 'Байкал',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Озеро тектонического происхождения в южной части Восточной Сибири, самое глубокое озеро на планете, крупнейший природный резервуар пресной воды.'
       },
       sv:{
         thumbnailLabel: 'Baikal',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'En sjö av tektoniskt ursprung i södra delen av östra Sibirien, den djupaste sjön på planeten, den största naturliga reservoaren med färskvatten.'
       },
     }
   },
@@ -30,15 +30,15 @@ const russiaGallery = [
     translations: {
       en: {
         thumbnailLabel: 'Saint Isaac\'s Cathedral',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'The most famous and largest church in St. Petersburg, an outstanding example of Russian religious architecture.'
       },
       ru: {
         thumbnailLabel: 'Исаакиевский собор',
-        description: 'Лорем ипсум).'
+        description: 'Самый известный и крупный храм Санкт-Петербурга, выдающийся пример русской религиозной архитектуры.'
       },
       sv:{
         thumbnailLabel: 'Saint Isaac\'s Cathedral',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Den mest kända och största kyrkan i St Petersburg, ett enastående exempel på rysk religiös arkitektur.'
       },
     }
   },
@@ -48,15 +48,15 @@ const russiaGallery = [
     translations: {
       en: {
         thumbnailLabel: 'St Basil\'s Church',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'The most beautiful and mysterious church in all of Russia. It is believed that the architects who created it were deprived of sight, Stalin himself did not allow the building to be demolished, and during the war the temple was hidden from shelling.'
       },
       ru: {
         thumbnailLabel: 'Храм Василия Блаженного',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Самая красивая и загадочная церковь во всей России. Считается, что зодчих, создавших ее лишили зрения, постройку не позволил снести сам Сталин, а во время войны храм прятали от обстрелов.'
       },
       sv:{
         thumbnailLabel: 'St Basil\'s Church',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Den vackraste och mest mystiska kyrkan i hela Ryssland. Man tror att arkitekterna som skapade den var berövade synen, Stalin själv tillät inte att byggnaden rivdes och under kriget doldes templet från beskjutningen.'
       },
     }
   },
@@ -66,15 +66,15 @@ const russiaGallery = [
     translations: {
       en: {
         thumbnailLabel: 'Hermitage Museum',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Museum of Fine and Decorative and Applied Arts, located in the city of St. Petersburg. One of the largest art museums in the world.'
       },
       ru: {
         thumbnailLabel: 'Эрмитаж',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Музей изобразительного и декоративно-прикладного искусства, расположенный в городе Санкт-Петербург. Один из крупнейших художественных музеев в мире.'
       },
       sv:{
         thumbnailLabel: 'Hermitage Museum',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Museum of Fine and Decorative and Applied Arts, beläget i staden St Petersburg. Ett av de största konstmuseerna i världen.'
       },
     }
   },
@@ -84,15 +84,15 @@ const russiaGallery = [
     translations: {
       en: {
         thumbnailLabel: 'Moscow City',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'The business zone, which is unique for Russia and Eastern Europe, unites residential apartments, office buildings, and numerous areas for trade and recreation.'
       },
       ru: {
         thumbnailLabel: 'Москва-Сити',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Уникальная для России и Восточной Европы зона деловой активности объединяет в себе апартаменты для жилья, офисные здания, многочисленные площадки для торговли и отдыха.'
       },
       sv:{
         thumbnailLabel: 'Moskva stad',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Affärsområdet, som är unikt för Ryssland och Östeuropa, förenar bostäder, kontorsbyggnader och många områden för handel och rekreation.'
       },
     }
   },
@@ -102,15 +102,15 @@ const russiaGallery = [
     translations: {
       en: {
         thumbnailLabel: 'Big Theater',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'One of the largest in Russia and one of the most significant opera and ballet theaters in the world.'
       },
       ru: {
         thumbnailLabel: 'Большой театр',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Один из крупнейших в России и один из самых значительных в мире театров оперы и балета.'
       },
       sv:{
         thumbnailLabel: 'Stor Teater',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'En av de största i Ryssland och en av de viktigaste opera- och baletteatrarna i världen.'
       },
     }
   }

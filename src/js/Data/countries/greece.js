@@ -12,15 +12,15 @@ const greeceGallery = [
     translations: {
       en: {
         thumbnailLabel: 'Acropolis of Athens',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Acropolis in the city of Athens, which is a 156-meter rocky hill with a gentle summit.'
       },
       ru: {
         thumbnailLabel: 'Афинский Акрополь',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Акрополь в городе Афины, представляющий собой 156-метровый скалистый холм с пологой вершиной.'
       },
       sv:{
         thumbnailLabel: 'Akropolis i Aten',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Akropolis i staden Aten, som är en 156 meter stenig kulle med en mild topp.'
       },
     }
   },
@@ -30,15 +30,15 @@ const greeceGallery = [
     translations: {
       en: {
         thumbnailLabel: 'Crete',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'The largest Greek island, the fifth largest island in the Mediterranean.'
       },
       ru: {
         thumbnailLabel: 'Крит',
-        description: 'Лорем ипсум).'
+        description: 'Самый большой греческий остров, пятый по величине остров в Средиземном море.'
       },
       sv:{
         thumbnailLabel: 'Kreta',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Den största grekiska ön, den femte största ön i Medelhavet.'
       },
     }
   },
@@ -48,15 +48,15 @@ const greeceGallery = [
     translations: {
       en: {
         thumbnailLabel: 'Meteora monasteries',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'One of the largest monastic complexes in Greece, renowned primarily for its unique location on the tops of the cliffs.'
       },
       ru: {
         thumbnailLabel: 'Монастыри Метеоры',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Один из крупнейших монастырских комплексов в Греции, прославленный, прежде всего, своим уникальным расположением на вершинах скал.'
       },
       sv:{
         thumbnailLabel: 'Meteora kloster',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Ett av de största klosterkomplexen i Grekland, främst känt för sitt unika läge på toppen av klipporna.'
       },
     }
   },
@@ -66,15 +66,15 @@ const greeceGallery = [
     translations: {
       en: {
         thumbnailLabel: 'Parthenon',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'A monument of ancient architecture, an ancient Greek temple located on the Athenian Acropolis, the main temple in ancient Athens.'
       },
       ru: {
         thumbnailLabel: 'Парфенон',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Памятник античной архитектуры, древнегреческий храм, расположенный на афинском Акрополе, главный храм в древних Афинах.'
       },
       sv:{
         thumbnailLabel: 'Parthenon',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Ett monument av forntida arkitektur, ett gammalt grekiskt tempel beläget på den atenska akropolen, det viktigaste templet i antika Aten.'
       },
     }
   },
@@ -84,15 +84,15 @@ const greeceGallery = [
     translations: {
       en: {
         thumbnailLabel: 'Santorini',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'The romantic island of Santorini, a tourist gem and archaeological pride of Greece. Located in the southern Aegean Sea.'
       },
       ru: {
-        thumbnailLabel: 'Санторин',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        thumbnailLabel: 'Санторини',
+        description: 'Романтический остров Санторини, туристическая жемчужина и археологическая гордость Греции. Расположен в южной акватории Эгейского моря.'
       },
       sv:{
         thumbnailLabel: 'Santorini',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Den romantiska ön Santorini, en turistpärla och Greklands arkeologiska stolthet. Beläget i södra Egeiska havet.'
       },
     }
   },
@@ -102,15 +102,15 @@ const greeceGallery = [
     translations: {
       en: {
         thumbnailLabel: 'Temple of Zeus at Olympia',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Dedicated to the supreme Olympic god Zeus. The structure is considered one of the highest achievements in the development of the Doric peripter.'
       },
       ru: {
         thumbnailLabel: 'Храм Зевса в Олимпии',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Посвящён верховному олимпийскому богу Зевсу. Сооружение считается одним из высших достижений в развитии дорического периптера.'
       },
       sv:{
         thumbnailLabel: 'Zeustemplet vid Olympia',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Tillägnad den högsta olympiska guden Zeus. Strukturen anses vara en av de högsta prestationerna i utvecklingen av den doriska peripteren.'
       },
     }
   }

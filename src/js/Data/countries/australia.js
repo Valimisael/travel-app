@@ -12,15 +12,15 @@ const australiaGallery = [
     translations: {
       en: {
         thumbnailLabel: 'Blue Mountains',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Mountain range, 50 km long, which is part of the Great Dividing Range.'
       },
       ru: {
         thumbnailLabel: 'Голубые горы',
-        description: 'Лорем ипсум).'
+        description: 'Горный массив, протяжённостью в 50 км, который входит в состав Большого Водораздельного хребта.'
       },
       sv:{
         thumbnailLabel: 'Blue Mountains',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Bergskedja, 50 km lång, som ingår i Great Dividing Range.'
       },
     }
   },
@@ -30,15 +30,15 @@ const australiaGallery = [
     translations: {
       en: {
         thumbnailLabel: 'Great Barrier Reef',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'The world\'s largest coral reef.'
       },
       ru: {
         thumbnailLabel: 'Большой Барьерный риф',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Крупнейший в мире коралловый риф.'
       },
       sv:{
         thumbnailLabel: 'Stora Barriärrevet',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Världens största korallrev.'
       },
     }
   },
@@ -48,15 +48,15 @@ const australiaGallery = [
     translations: {
       en: {
         thumbnailLabel: 'Harbour Bridge',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'One of the largest steel arch bridges in the world.'
       },
       ru: {
         thumbnailLabel: 'Харбор-Бридж',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Один из самых больших стальных арочных мостов в мире.'
       },
       sv:{
         thumbnailLabel: 'Harbour Bridge',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'En av de största stålbågsbroarna i världen.'
       },
     }
   },
@@ -66,15 +66,15 @@ const australiaGallery = [
     translations: {
       en: {
         thumbnailLabel: 'Murray River',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'The largest river in Australia, forming a river system with an area of about 12% of the entire continent.'
       },
       ru: {
         thumbnailLabel: 'Муррей',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Крупнейшая река в Австралии, формирующая речную систему площадью около 12% всего континента.'
       },
       sv:{
         thumbnailLabel: 'Murray',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Australiens största flod och bildar ett flodsystem med ett område på cirka 12% av hela kontinenten.'
       },
     }
   },
@@ -84,15 +84,15 @@ const australiaGallery = [
     translations: {
       en: {
         thumbnailLabel: 'Sydney Opera House',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'One of the most famous buildings in the world. Theater performances are attended by about two million people a year.'
       },
       ru: {
         thumbnailLabel: 'Сиднейский оперный театр',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Одно из наиболее известных зданий мира. Представления в театре посещают около двух миллионов человек в год.'
       },
       sv:{
         thumbnailLabel: 'Operahuset i Sydney',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'En av de mest kända byggnaderna i världen. Teaterföreställningar deltar av cirka två miljoner människor per år.'
       },
     }
   },
@@ -102,15 +102,15 @@ const australiaGallery = [
     translations: {
       en: {
         thumbnailLabel: 'Uluru',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Massive orange-brown oval rock formation, formed by geological processes about 680 million years ago.'
       },
       ru: {
         thumbnailLabel: 'Улуру',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Массивное оранжево-коричневое скальное образование овальной формы, сформированное геологическими процессами около 680 миллионов лет назад.'
       },
       sv:{
         thumbnailLabel: 'Uluru',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Massiv orange-brun oval bergformation, bildad av geologiska processer för cirka 680 miljoner år sedan.'
       },
     }
   }

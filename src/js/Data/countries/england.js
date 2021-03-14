@@ -12,15 +12,15 @@ const englandGallery = [
     translations: {
       en: {
         thumbnailLabel: 'London Eye',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'London Ferris Wheel located in the Lambeth area on the south bank of the Thames.'
       },
       ru: {
         thumbnailLabel: 'Лондонский глаз',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Колесо обозрения в Лондоне, расположенное в районе Ламбет на южном берегу Темзы.'
       },
       sv:{
         thumbnailLabel: 'London Eye',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'London pariserhjul som ligger i Lambeth-området på Thames södra strand.'
       },
     }
   },
@@ -30,15 +30,15 @@ const englandGallery = [
     translations: {
       en: {
         thumbnailLabel: 'Big Ben',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'The large Westminster clock is the third largest four-sided striking clock in the world.'
       },
       ru: {
         thumbnailLabel: 'Биг-Бен',
-        description: 'Лорем ипсум).'
+        description: 'Большие часы Вестминстера являются третьими по размеру в мире четырёхсторонними часами с боем.'
       },
       sv:{
         thumbnailLabel: 'Big Ben',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Den stora Westminster-klockan är den tredje största fyrsidiga slående klockan i världen.'
       },
     }
   },
@@ -48,15 +48,15 @@ const englandGallery = [
     translations: {
       en: {
         thumbnailLabel: 'Buckingham Palace',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'The official London residence of Queen Elizabeth II of Great Britain.'
       },
       ru: {
         thumbnailLabel: 'Букингемский дворец',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Официальная лондонская резиденция королевы Великобритании Елизаветы II.'
       },
       sv:{
         thumbnailLabel: 'Buckingham Palace',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Den officiella Londonresidensen för drottning Elizabeth II av Storbritannien.'
       },
     }
   },
@@ -66,15 +66,15 @@ const englandGallery = [
     translations: {
       en: {
         thumbnailLabel: 'Tower of London',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'One of the main attractions of Great Britain, the fortress, which has a history of almost 1000 years.'
       },
       ru: {
         thumbnailLabel: 'Лондонский Тауэр',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Одна из главных достопримечательностей Великобритании, крепость, история которой насчитывает почти 1000 лет.'
       },
       sv:{
         thumbnailLabel: 'Tower',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'En av de största attraktionerna i Storbritannien, fästningen, som har en historia på nästan 1000 år.'
       },
     }
   },
@@ -84,15 +84,15 @@ const englandGallery = [
     translations: {
       en: {
         thumbnailLabel: 'Bridge of Tower',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'A swing crossing over the River Thames in central London, close to Tower Tower.'
       },
       ru: {
         thumbnailLabel: 'Тауэрский мост',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Разводная переправа через реку Темзу в центре Лондона, неподалеку от Тауэрской башни.'
       },
       sv:{
         thumbnailLabel: 'Bro av Tornet',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'En gungakorsning över Themsen i centrala London, nära Tower Tower.'
       },
     }
   },
@@ -102,15 +102,15 @@ const englandGallery = [
     translations: {
       en: {
         thumbnailLabel: 'Westminster Abbey',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'The Collegiate Church of St. Peter in Westminster is the most important religious landmark, the place of coronation and burial of monarchs.'
       },
       ru: {
         thumbnailLabel: 'Вестминстерское аббатство',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Коллегиа́льная це́рковь Свято́го Петра́ в Ве́стминстере - важнейшая религиозная достопримечательность, место коронации и погребения монархов.'
       },
       sv:{
         thumbnailLabel: 'Westminster Abbey',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Collegiate Church of St. Peter i Westminster är det viktigaste religiösa landmärket, platsen för kröning och begravning av monarker.'
       },
     }
   }
