@@ -1,12 +1,7 @@
 import React from 'react';
 import './CountryMap.scss';
-import Settings from '../../../Settings/Settings';
 
 export default class CountryMap extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   componentDidMount() {
     window.ymaps.ready(this.createMap);
   }
