@@ -41,7 +41,15 @@ import en from '../../img/icons/en.png';
 import ru from '../../img/icons/ru.png';
 import sv from '../../img/icons/sv.png';
 
+import australiaVideo from '../../video/Australia.mp4';
+import brazilVideo from '../../video/Brazil.mp4';
 import greatBritainVideo from '../../video/Great Britain.mp4';
+import greeceVideo from '../../video/Greece.mp4';
+import japanVideo from '../../video/Japan.mp4';
+import russiaVideo from '../../video/Russia.mp4';
+import swedenVideo from '../../video/Sweden.mp4';
+import uaeVideo from '../../video/UAE.mp4';
+
 
 export const IMAGES = {
   australia, 
@@ -88,7 +96,14 @@ export const POSTERS = {
 }
 
 export const VIDEO = {
-  greatBritainVideo
+  australiaVideo,
+  brazilVideo,
+  greatBritainVideo,
+  greeceVideo,
+  japanVideo,
+  russiaVideo,
+  swedenVideo,
+  uaeVideo
 };
 
 export const LOGOS = {
