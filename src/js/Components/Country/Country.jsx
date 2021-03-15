@@ -27,13 +27,13 @@ export default class Country extends React.Component {
 
     return (
       <main>
-        {/* <Hero image={country} content={country.translations[lang]} /> */}
+        <Hero image={country} content={country.translations[lang]} />
         <div className="country__wrapper">
           <div className="country__info">
-            <CountryMap map={map} title={`${country.translations[lang].country} ${data.map}`} />
             <Description title={data.about} description={country.translations[lang].description} />
             <Gallery title={country.translations[lang].country} images={country.gallery} settings={this.settings}/>
             <Video video={data.video} country={country} />
+            <CountryMap map={map} title={`${country.translations[lang].country} ${data.map}`} />
           </div>
           <div className="country__widgets">
             <DateAndTime country={this.country} settings={this.settings} />
