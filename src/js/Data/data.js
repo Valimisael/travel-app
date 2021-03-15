@@ -19,8 +19,6 @@ const DEFAULT_SHORT_CURRENCIES_CODES = {
   ruble: 'BYN'
 };
 
-
-
 const DECIMALPLACESFORCURRENCIES = 2;
 
 const COMMON = {
@@ -113,8 +111,10 @@ const COUNTRIES = [
       gallery: GALLERY.australiaGallery,
       video: VIDEO.australiaVideo,
       timeZone: 'Australia/Canberra',
-      geo: [-35.2835, 149.128],
-      zoom: 11,
+      map: {
+        geo: [-35.2835, 149.128],
+        zoom: 5,
+      },
       translations: {
         en: {
           country: 'Australia',
@@ -146,8 +146,10 @@ const COUNTRIES = [
       gallery: GALLERY.brazilGallery,
       video: VIDEO.brazilVideo,
       timeZone: 'Brazil/East',
-      geo: [-15.7797, -47.9297],
-      zoom: 10,
+      map: {
+        geo: [-15.7797, -47.9297],
+        zoom: 4,
+      },
       translations: {
         en: {
           country: 'Brazil',
@@ -180,8 +182,10 @@ const COUNTRIES = [
       video: VIDEO.greatBritainVideo,
       poster: IMAGES.england,
       timeZone: 'Europe/London',
-      geo: [51.5085, -0.12574],
-      zoom: 10,
+      map: {
+        geo: [51.5085, -0.12574],
+        zoom: 6,
+      },
       translations: {
         en: {
           country: 'Great Britain',
@@ -213,8 +217,10 @@ const COUNTRIES = [
       gallery: GALLERY.greeceGallery,
       video: VIDEO.greeceVideo,
       timeZone: 'Europe/Athens',
-      geo: [37.9838, 23.7278],
-      zoom: 12,
+      map: {
+        geo: [37.9838, 23.7278],
+        zoom: 7,
+      },
       translations: {
         en: {
           country: 'Greece',
@@ -246,8 +252,10 @@ const COUNTRIES = [
       gallery: GALLERY.japanGallery,
       video: VIDEO.japanVideo,
       timeZone: 'Japan',
-      geo: [35.6895, 139.692],
-      zoom: 9,
+      map: {
+        geo: [35.6895, 139.692],
+        zoom: 7,
+      },
       translations: {
         en: {
           country: 'Japan',
@@ -279,8 +287,11 @@ const COUNTRIES = [
       gallery: GALLERY.russiaGallery,
       video: VIDEO.russiaVideo,
       timeZone: 'Europe/Moscow',
-      geo: [55.7522, 37.6156],
-      zoom: 10,
+      map: {
+        geo: [55.7522, 37.6156],
+        zoom: 5,
+        borders: 'RU',
+      },
       translations: {
         en: {
           country: 'Russia',
@@ -312,8 +323,10 @@ const COUNTRIES = [
       gallery: GALLERY.swedenGallery,
       video: VIDEO.swedenVideo,
       timeZone: 'Europe/Stockholm',
-      geo: [59.3326, 18.0649],
-      zoom: 11,
+      map: {
+        geo: [59.3326, 18.0649],
+        zoom: 6,
+      },
       translations: {
         en: {
           country: 'Sweden',
@@ -345,8 +358,10 @@ const COUNTRIES = [
       gallery: GALLERY.uaeGallery,
       video: VIDEO.uaeVideo,
       timeZone: 'Asia/Dubai',
-      geo: [24.4667, 54.3667],
-      zoom: 12,
+      map: {
+        geo: [24.4667, 54.3667],
+        zoom: 7,
+      },
       translations: {
         en: {
           country: 'UAE',

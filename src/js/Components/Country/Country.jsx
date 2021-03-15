@@ -23,6 +23,7 @@ export default class Country extends React.Component {
     const country = this.country;
     const lang = this.settings.lang;
     const data = COMMON[lang];
+    const map = this.country.map;
 
     return (
       <main>
@@ -32,7 +33,7 @@ export default class Country extends React.Component {
             <Description title={data.about} description={country.translations[lang].description} />
             <Gallery title={country.translations[lang].country} images={country.gallery} settings={this.settings}/>
             <Video video={data.video} country={country} />
-            <CountryMap geo={this.country.geo} zoom={this.country.zoom} title={`${country.translations[lang].country} ${data.map}`} />
+            <CountryMap map={map} title={`${country.translations[lang].country} ${data.map}`} />
           </div>
           <div className="country__widgets">
             <DateAndTime country={this.country} settings={this.settings} />
