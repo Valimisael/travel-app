@@ -6,7 +6,6 @@ import { Player, BigPlayButton } from 'video-react';
 export default function Video(props) {
   const {video, country} = props;
 
-  console.log(country);
   return (
     <div className="country__video">
       <h2 className="country__title">{video}</h2>           
