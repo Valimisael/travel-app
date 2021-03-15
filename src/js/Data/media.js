@@ -28,18 +28,14 @@ import { russiaGallery } from '../Data/countries/russia';
 import { swedenGallery } from '../Data/countries/sweden';
 import { uaeGallery } from '../Data/countries/uae';
 
-import australiaPoster from '../../img/posters/australia';
-import brazilPoster from '../../img/posters/brazil';
-import englandPoster from '../../img/posters/england';
-import greeceaPoster from '../../img/posters/greece';
-import japanPoster from '../../img/posters/japan';
-import russiaPoster from '../../img/posters/russia';
-import swedenPoster from '../../img/posters/sweden';
-import uaePoster from '../../img/posters/uae';
-
-import en from '../../img/icons/en.png';
-import ru from '../../img/icons/ru.png';
-import sv from '../../img/icons/sv.png';
+import australiaPoster from '../../img/posters/australia.jpg';
+import brazilPoster from '../../img/posters/brazil.jpg';
+import englandPoster from '../../img/posters/england.jpg';
+import greecePoster from '../../img/posters/greece.jpg';
+import japanPoster from '../../img/posters/japan.jpg';
+import russiaPoster from '../../img/posters/russia.jpg';
+import swedenPoster from '../../img/posters/sweden.jpg';
+import uaePoster from '../../img/posters/uae.jpg';
 
 import australiaVideo from '../../video/Australia.mp4';
 import brazilVideo from '../../video/Brazil.mp4';
@@ -49,6 +45,10 @@ import japanVideo from '../../video/Japan.mp4';
 import russiaVideo from '../../video/Russia.mp4';
 import swedenVideo from '../../video/Sweden.mp4';
 import uaeVideo from '../../video/UAE.mp4';
+
+import en from '../../img/icons/en.png';
+import ru from '../../img/icons/ru.png';
+import sv from '../../img/icons/sv.png';
 
 
 export const IMAGES = {
@@ -88,7 +88,7 @@ export const POSTERS = {
   australiaPoster,
   brazilPoster,
   englandPoster,
-  greeceaPoster,
+  greecePoster,
   japanPoster,
   russiaPoster,
   swedenPoster,

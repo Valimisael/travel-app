@@ -109,6 +109,7 @@ const COUNTRIES = [
       thumb: THUMBS.australiaThumb,
       url: '/australia',
       gallery: GALLERY.australiaGallery,
+      poster: POSTERS.australiaPoster,
       video: VIDEO.australiaVideo,
       timeZone: 'Australia/Canberra',
       map: {
@@ -144,6 +145,7 @@ const COUNTRIES = [
       thumb: THUMBS.brazilThumb,
       url: '/brazil',
       gallery: GALLERY.brazilGallery,
+      poster: POSTERS.brazilPoster,
       video: VIDEO.brazilVideo,
       timeZone: 'Brazil/East',
       map: {
@@ -179,8 +181,8 @@ const COUNTRIES = [
       thumb: THUMBS.englandThumb,
       url: '/great-britain',
       gallery: GALLERY.englandGallery,
+      poster: POSTERS.englandPoster,
       video: VIDEO.greatBritainVideo,
-      poster: POSTERS.england,
       timeZone: 'Europe/London',
       map: {
         geo: [51.5085, -0.12574],
@@ -215,6 +217,7 @@ const COUNTRIES = [
       thumb: THUMBS.greeceThumb,
       url: '/greece',
       gallery: GALLERY.greeceGallery,
+      poster: POSTERS.greecePoster,
       video: VIDEO.greeceVideo,
       timeZone: 'Europe/Athens',
       map: {
@@ -250,6 +253,7 @@ const COUNTRIES = [
       thumb: THUMBS.japanThumb,
       url: '/japan',
       gallery: GALLERY.japanGallery,
+      poster: POSTERS.japanPoster,
       video: VIDEO.japanVideo,
       timeZone: 'Japan',
       map: {
@@ -285,6 +289,7 @@ const COUNTRIES = [
       thumb: THUMBS.russiaThumb,
       url: '/russia',
       gallery: GALLERY.russiaGallery,
+      poster: POSTERS.russiaPoster,
       video: VIDEO.russiaVideo,
       timeZone: 'Europe/Moscow',
       map: {
@@ -321,6 +326,7 @@ const COUNTRIES = [
       thumb: THUMBS.swedenThumb,
       url: '/sweden',
       gallery: GALLERY.swedenGallery,
+      poster: POSTERS.swedenPoster,
       video: VIDEO.swedenVideo,
       timeZone: 'Europe/Stockholm',
       map: {
@@ -355,6 +361,7 @@ const COUNTRIES = [
       src: IMAGES.uae,
       thumb: THUMBS.uaeThumb,
       url: '/uae',
+      poster: POSTERS.uaePoster,
       gallery: GALLERY.uaeGallery,
       video: VIDEO.uaeVideo,
       timeZone: 'Asia/Dubai',
