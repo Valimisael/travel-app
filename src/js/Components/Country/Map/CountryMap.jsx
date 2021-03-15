@@ -1,5 +1,6 @@
 import React from 'react';
 import './CountryMap.scss';
+import Settings from '../../../Settings/Settings';
 
 export default class CountryMap extends React.Component {
   constructor(props) {
@@ -13,13 +14,26 @@ export default class CountryMap extends React.Component {
   createMap = () => {
     const geo = this.props.map.geo;
     const zoom = this.props.map.zoom;
-    const borders = this.props.map.borders;
     
     const map = new window.ymaps.Map("map", {
       center: geo,
       zoom: zoom,
-      controls: ['zoomControl', 'fullscreenControl'],
+      controls: ['fullscreenControl'],
     });
+
+    const zoomControl = new window.ymaps.control.ZoomControl({
+      options: {
+        size: "small",
+        position: {
+          top: 10,
+          left: 10
+        }
+      }
+    });
+    
+    map.controls.add(zoomControl);
+
+    map.options.set('suppressMapOpenBlock', true);
 
     const placemark = new window.ymaps.GeoObject({
       geometry: {
@@ -32,13 +46,19 @@ export default class CountryMap extends React.Component {
 
     map.geoObjects.add(placemark);
 
-    window.ymaps.borders.load(borders)
-      .then(function (geojson) {
-        for (var i = 0; i < geojson.features.length; i++) {
-          var geoObject = new window.ymaps.GeoObject(geojson.features[i]);
-          map.geoObjects.add(geoObject);
-        }
-    });
+    if (this.props.map.borders) {
+      window.ymaps.borders.load(this.props.map.borders)
+        .then(function (geojson) {
+          for (let i = 0; i < geojson.features.length; i++) {
+            const geoObject = new window.ymaps.GeoObject(geojson.features[i]);
+            geoObject.options.set({
+              fillColor: 'rgba(100%, 72%, 1%, 0.2)',
+              strokeColor: '#ffb703',
+            })
+            map.geoObjects.add(geoObject);
+          }
+      });
+    }
   }
 
   render() {

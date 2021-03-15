@@ -19,8 +19,6 @@ const DEFAULT_SHORT_CURRENCIES_CODES = {
   ruble: 'BYN'
 };
 
-
-
 const DECIMALPLACESFORCURRENCIES = 2;
 
 const COMMON = {
@@ -114,8 +112,7 @@ const COUNTRIES = [
       timeZone: 'Australia/Canberra',
       map: {
         geo: [-35.2835, 149.128],
-        zoom: 11,
-        borders: 'AU',
+        zoom: 5,
       },
       translations: {
         en: {
@@ -149,8 +146,7 @@ const COUNTRIES = [
       timeZone: 'Brazil/East',
       map: {
         geo: [-15.7797, -47.9297],
-        zoom: 10,
-        borders: 'BR',
+        zoom: 4,
       },
       translations: {
         en: {
@@ -186,8 +182,7 @@ const COUNTRIES = [
       timeZone: 'Europe/London',
       map: {
         geo: [51.5085, -0.12574],
-        zoom: 10,
-        borders: 'GB',
+        zoom: 6,
       },
       translations: {
         en: {
@@ -221,8 +216,7 @@ const COUNTRIES = [
       timeZone: 'Europe/Athens',
       map: {
         geo: [37.9838, 23.7278],
-        zoom: 12,
-        borders: 'GR',
+        zoom: 7,
       },
       translations: {
         en: {
@@ -256,8 +250,7 @@ const COUNTRIES = [
       timeZone: 'Japan',
       map: {
         geo: [35.6895, 139.692],
-        zoom: 9,
-        borders: 'JP',
+        zoom: 7,
       },
       translations: {
         en: {
@@ -291,7 +284,7 @@ const COUNTRIES = [
       timeZone: 'Europe/Moscow',
       map: {
         geo: [55.7522, 37.6156],
-        zoom: 10,
+        zoom: 5,
         borders: 'RU',
       },
       translations: {
@@ -326,8 +319,7 @@ const COUNTRIES = [
       timeZone: 'Europe/Stockholm',
       map: {
         geo: [59.3326, 18.0649],
-        zoom: 11,
-        borders: 'SE',
+        zoom: 6,
       },
       translations: {
         en: {
@@ -361,8 +353,7 @@ const COUNTRIES = [
       timeZone: 'Asia/Dubai',
       map: {
         geo: [24.4667, 54.3667],
-        zoom: 12,
-        borders: 'AE',
+        zoom: 7,
       },
       translations: {
         en: {
