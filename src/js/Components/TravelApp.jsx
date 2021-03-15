@@ -1,10 +1,9 @@
 import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
-import { Redirect } from 'react-router-dom';
 import Header from './Common/Header/Header.jsx';
 import Footer from './Common/Footer/Footer.jsx';
 import Home from './Home/Home.jsx';
 import Country from './Country/Country.jsx';
+import { BrowserRouter, Route } from 'react-router-dom';
 import { COUNTRIES } from '../Data/data';
 import ScrollToTop from '../Settings/ScrollToTop';
 
@@ -31,7 +30,6 @@ export default class TravelApp extends React.Component {
               ) 
             })
           }
-          <Route render={() => <Redirect to={{pathname: "/"}} />} />
           <Footer />
         </div>
       </BrowserRouter>
