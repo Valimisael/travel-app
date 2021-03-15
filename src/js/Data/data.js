@@ -1,4 +1,4 @@
-import { IMAGES, THUMBS, GALLERY, VIDEO, LOGOS } from './media';
+import { IMAGES, THUMBS, GALLERY, POSTERS, VIDEO, LOGOS } from './media';
 
 const CURRENCIESAPIURL = currencyCode => `https://www.nbrb.by/api/exrates/rates/${currencyCode}?parammode=1`;
 const CURRENCIES_ADDITIONAL_URL = code => `https://v6.exchangerate-api.com/v6/0b88ab07f0347d5c0d6e14ab/latest/${code}`;
@@ -178,7 +178,7 @@ const COUNTRIES = [
       url: '/great-britain',
       gallery: GALLERY.englandGallery,
       video: VIDEO.greatBritainVideo,
-      poster: IMAGES.england,
+      poster: POSTERS.england,
       timeZone: 'Europe/London',
       map: {
         geo: [51.5085, -0.12574],

@@ -28,6 +28,15 @@ import { russiaGallery } from '../Data/countries/russia';
 import { swedenGallery } from '../Data/countries/sweden';
 import { uaeGallery } from '../Data/countries/uae';
 
+import australiaPoster from '../../img/posters/australia';
+import brazilPoster from '../../img/posters/brazil';
+import englandPoster from '../../img/posters/england';
+import greeceaPoster from '../../img/posters/greece';
+import japanPoster from '../../img/posters/japan';
+import russiaPoster from '../../img/posters/russia';
+import swedenPoster from '../../img/posters/sweden';
+import uaePoster from '../../img/posters/uae';
+
 import en from '../../img/icons/en.png';
 import ru from '../../img/icons/ru.png';
 import sv from '../../img/icons/sv.png';
@@ -66,6 +75,17 @@ export const GALLERY = {
   swedenGallery, 
   uaeGallery
 };
+
+export const POSTERS = {
+  australiaPoster,
+  brazilPoster,
+  englandPoster,
+  greeceaPoster,
+  japanPoster,
+  russiaPoster,
+  swedenPoster,
+  uaePoster
+}
 
 export const VIDEO = {
   greatBritainVideo
