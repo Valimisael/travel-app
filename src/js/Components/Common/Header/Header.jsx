@@ -1,6 +1,6 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './Header.scss';
-
 import { Route } from 'react-router-dom';
 import { LOGOS} from '../../../Data/media';
 import { NavLink } from 'react-router-dom';
@@ -14,7 +14,7 @@ export default class Header extends React.Component {
     this.updateState = this.props.updateState.bind(this);
   }
   
-  render () {    
+  render () {
     return (
       <header className="header">
         <NavLink to="/" className="header__item logo">
@@ -30,3 +30,11 @@ export default class Header extends React.Component {
     )
   }
 }
+
+Header.propTypes = {
+  settings: PropTypes.shape({
+    lang: PropTypes.string,
+    search: PropTypes.string
+  }),
+  updateState: PropTypes.func
+};

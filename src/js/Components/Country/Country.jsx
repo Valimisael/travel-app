@@ -1,6 +1,6 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './Country.scss';
-
 import { COMMON } from '../../Data/data';
 import Hero from './Hero/Hero.jsx';
 import Description from './Description/Description.jsx';
@@ -23,20 +23,19 @@ export default class Country extends React.Component {
     const country = this.country;
     const lang = this.settings.lang;
     const data = COMMON[lang];
-    const map = this.country.map;
 
     return (
       <main>
-        <Hero image={country} content={country.translations[lang]} />
+        <Hero image={country.src} title={country.name} country={country.translations[lang].country} capital={country.translations[lang].capital} />
         <div className="country__wrapper">
           <div className="country__info">
             <Description title={data.about} description={country.translations[lang].description} />
             <Gallery title={country.translations[lang].country} images={country.gallery} settings={this.settings}/>
-            <Video video={data.video} country={country} />
-            <CountryMap map={map} title={`${country.translations[lang].country} ${data.map}`} />
+            <Video title={data.video} poster={country.poster} video={country.video} />
+            <CountryMap map={country.map} title={`${country.translations[lang].country} ${data.map}`} />
           </div>
           <div className="country__widgets">
-            <DateAndTime country={this.country} settings={this.settings} />
+            <DateAndTime timeZone={this.country.timeZone} settings={this.settings} />
             <Weather settings={this.settings} country={this.country} updateState = {this.updateState} />
             <Currency settings={this.settings} country={this.country} updateState = {this.updateState} />
           </div>
@@ -45,3 +44,34 @@ export default class Country extends React.Component {
     )
   }
 }
+
+Country.propTypes = {
+  country: PropTypes.shape({
+    countryCode: PropTypes.string,
+    currencyShortCode: PropTypes.string,
+    gallery: PropTypes.array,
+    map: PropTypes.shape({
+      borders: PropTypes.string,
+      geo: PropTypes.array,
+      zoom: PropTypes.number
+    }),
+    name: PropTypes.string,
+    poster: PropTypes.string,
+    src: PropTypes.string,
+    thumb: PropTypes.string,
+    timeZone: PropTypes.string,
+    translations: PropTypes.objectOf(PropTypes.shape({
+      capital: PropTypes.string,
+      country: PropTypes.string,
+      currencyName: PropTypes.string,
+      description: PropTypes.string
+    })),
+    url: PropTypes.string,
+    video: PropTypes.string
+  }),
+  settings: PropTypes.shape({
+    lang: PropTypes.string,
+    search: PropTypes.string
+  }),
+  updateState: PropTypes.func
+};

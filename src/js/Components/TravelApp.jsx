@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
+import PropTypes from 'prop-types';
 import Header from './Common/Header/Header.jsx';
 import Footer from './Common/Footer/Footer.jsx';
 import Home from './Home/Home.jsx';
@@ -27,8 +28,8 @@ export default class TravelApp extends React.Component {
             {
               COUNTRIES.map((country) => {
                 return (
-                  <Route path={country.url}>
-                    <Country settings={this.settings} country={country} updateState={this.updateState} key={country.name} />
+                  <Route path={country.url} key={country.name}>
+                    <Country settings={this.settings} country={country} updateState={this.updateState} />
                   </Route>
                 ) 
               })
@@ -43,3 +44,11 @@ export default class TravelApp extends React.Component {
     )
   }
 }
+
+TravelApp.propTypes = {
+  settings: PropTypes.shape({
+    lang: PropTypes.string,
+    search: PropTypes.string
+  }),
+  updateState: PropTypes.func
+};

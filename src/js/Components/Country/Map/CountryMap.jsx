@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './CountryMap.scss';
 
 export default class CountryMap extends React.Component {
@@ -66,4 +67,12 @@ export default class CountryMap extends React.Component {
         </div>
     )
   }
+}
+
+CountryMap.propTypes = {
+  map: PropTypes.shape({
+    geo: PropTypes.array,
+    zoom: PropTypes.number
+  }),
+  title: PropTypes.string
 }

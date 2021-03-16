@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './Search.scss';
 import { COMMON } from '../../../../Data/data';
 
@@ -47,3 +48,11 @@ export default class Search extends React.Component {
     )
   }
 }
+
+Search.propTypes = {
+  settings: PropTypes.shape({
+    lang: PropTypes.string,
+    search: PropTypes.string
+  }),
+  updateState: PropTypes.func
+};

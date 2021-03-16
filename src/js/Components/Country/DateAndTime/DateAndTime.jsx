@@ -1,10 +1,11 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './DateAndTime.scss';
 
 export default class DateAndTime extends React.Component {
   constructor(props) {
     super(props);
-    this.country = this.props.country;
+    this.timeZone = this.props.timeZone;
     this.settings = this.props.settings;
     this.timer = null;
 
@@ -20,7 +21,7 @@ export default class DateAndTime extends React.Component {
     const date = new Date();
 
     this.setState({
-      time: date.toLocaleTimeString(this.settings.lang, {timeZone: this.country.timeZone}),
+      time: date.toLocaleTimeString(this.settings.lang, {timeZone: this.timeZone}),
       month: date.toLocaleDateString(this.settings.lang, {month: 'long'}),
       day: date.getDate(),
       weekDay: date.toLocaleDateString(this.settings.lang, {weekday: 'long'}),
@@ -51,4 +52,12 @@ export default class DateAndTime extends React.Component {
       </div>
     )
   }
+}
+
+DateAndTime.propTypes = {
+  timeZone: PropTypes.string,
+  settings: PropTypes.shape({
+    lang: PropTypes.string,
+    search: PropTypes.string
+  })
 }
