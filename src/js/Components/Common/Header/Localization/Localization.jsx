@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { COMMON } from '../../../../Data/data';
 import { ICONS } from '../../../../Data/media';
 import './Localization.scss';
@@ -52,3 +53,11 @@ export default class Localization extends React.Component {
     )
   }
 }
+
+Localization.propTypes = {
+  settings: PropTypes.shape({
+    lang: PropTypes.string,
+    search: PropTypes.string
+  }),
+  updateState: PropTypes.func
+};

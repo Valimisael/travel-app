@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { COMMON } from '../../../Data/data';
 import GetWeather from '../../../Settings/GetWeather';
 import './Weather.scss';
@@ -34,3 +35,34 @@ export default class Weather extends React.Component {
     )
   }
 }
+
+Weather.propTypes = {
+  country: PropTypes.shape({
+    countryCode: PropTypes.string,
+    currencyShortCode: PropTypes.string,
+    gallery: PropTypes.array,
+    map: PropTypes.shape({
+      borders: PropTypes.string,
+      geo: PropTypes.array,
+      zoom: PropTypes.number
+    }),
+    name: PropTypes.string,
+    poster: PropTypes.string,
+    src: PropTypes.string,
+    thumb: PropTypes.string,
+    timeZone: PropTypes.string,
+    translations: PropTypes.objectOf(PropTypes.shape({
+      capital: PropTypes.string,
+      country: PropTypes.string,
+      currencyName: PropTypes.string,
+      description: PropTypes.string
+    })),
+    url: PropTypes.string,
+    video: PropTypes.string
+  }),
+  settings: PropTypes.shape({
+    lang: PropTypes.string,
+    search: PropTypes.string
+  }),
+  updateState: PropTypes.func
+};

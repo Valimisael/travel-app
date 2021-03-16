@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './Home.scss';
 
 import { COUNTRIES, COMMON } from '../../Data/data';
@@ -51,3 +52,11 @@ export default class Home extends React.Component {
     }    
   }
 }
+
+Home.propTypes = {
+  settings: PropTypes.shape({
+    lang: PropTypes.string,
+    search: PropTypes.string
+  }),
+  updateState: PropTypes.func
+};

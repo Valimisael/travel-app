@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './Description.scss';
 
 export default function Description(props) {
@@ -10,4 +11,9 @@ export default function Description(props) {
       <div className="country__description-text">{description}</div>
     </div>
   )
-} 
+}
+
+Description.protoTypes = {
+  title: PropTypes.string,
+  description: PropTypes.string
+}
