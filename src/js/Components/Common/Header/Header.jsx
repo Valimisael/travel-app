@@ -21,7 +21,9 @@ export default class Header extends React.Component {
           <img className="logo__image" alt="Logo" src={LOGOS.headerLogo} />
         </NavLink>
         <div className="settings">
-          <Route exact path="/" render={(props) => <Search {...props} settings={this.settings} updateState={this.updateState} />} />
+          <Route exact path="/">
+            <Search settings={this.settings} updateState={this.updateState} />
+          </Route>
           <Localization settings={this.settings} updateState={this.updateState}  />
         </div>
       </header>
