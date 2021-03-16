@@ -281,7 +281,7 @@ const COUNTRIES = [
         }
       },
       currencyCode: '392',
-      currencyShortCode: 'GPY'
+      currencyShortCode: 'JPY'
     },
     {
       name: 'russia',
