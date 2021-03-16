@@ -27,8 +27,8 @@ export default class TravelApp extends React.Component {
             {
               COUNTRIES.map((country) => {
                 return (
-                  <Route path={country.url}>
-                    <Country settings={this.settings} country={country} updateState={this.updateState} key={country.name} />
+                  <Route path={country.url} key={country.name}>
+                    <Country settings={this.settings} country={country} updateState={this.updateState} />
                   </Route>
                 ) 
               })
