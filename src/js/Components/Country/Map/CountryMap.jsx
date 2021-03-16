@@ -77,32 +77,24 @@ export default class CountryMap extends React.Component {
           selectOnClick: false,
         }
       }
-      );
+    );
+    
     const updateState = this.updateState.bind(this);
-    myButton.events
-      .add(
-        'click',
-        function () {
-          if (!window.ymaps.panorama.isSupported()) {
-            return;
-          }
-          updateState();
+    myButton.events.add('click', function () {
+      if (!window.ymaps.panorama.isSupported()) {
+        return;
+      }
+      updateState();
 
-          window.ymaps.panorama.createPlayer(
-            'panorama',
-            [59.938557, 30.316198],
-            { layer: 'yandex#airPanorama' }
-          )
-
-          updateState();
-        }
+      window.ymaps.panorama.createPlayer(
+        'panorama',
+        [59.938557, 30.316198],
+        { layer: 'yandex#airPanorama' }
       )
-      .add(
-        'deselect',
-        function () {
-          alert('Отжата');
-        }
-      );
+
+      updateState();
+    })
+      
     map.controls.add(myButton, {
       float: "left"
     });
