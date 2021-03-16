@@ -1,9 +1,9 @@
 import React from 'react';
+import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 import Header from './Common/Header/Header.jsx';
 import Footer from './Common/Footer/Footer.jsx';
 import Home from './Home/Home.jsx';
 import Country from './Country/Country.jsx';
-import { BrowserRouter, Route } from 'react-router-dom';
 import { COUNTRIES } from '../Data/data';
 import ScrollToTop from '../Settings/ScrollToTop';
 
@@ -20,16 +20,23 @@ export default class TravelApp extends React.Component {
         <ScrollToTop />
         <div className="wrapper">
           <Header settings={this.settings} updateState={this.updateState}/>
-          <Route exact path="/" render={(props) => <Home {...props} settings={this.settings} updateState = {this.updateState} />} />
-          {
-            COUNTRIES.map((country) => {
-              return (
-                <div key={country.name}>
-                  <Route path={country.url} render={(props) => <Country {...props} settings={this.settings} country={country} updateState = {this.updateState} />} />
-                </div>
-              ) 
-            })
-          }
+          <Switch>
+            <Route exact path="/">
+              <Home settings={this.settings} updateState={this.updateState} />
+            </Route>
+            {
+              COUNTRIES.map((country) => {
+                return (
+                  <Route path={country.url}>
+                    <Country settings={this.settings} country={country} updateState={this.updateState} key={country.name} />
+                  </Route>
+                ) 
+              })
+            }
+            <Route path="*">
+              <Redirect to='/' />
+            </Route>
+          </Switch>
           <Footer />
         </div>
       </BrowserRouter>
