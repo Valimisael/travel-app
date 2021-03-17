@@ -8,10 +8,10 @@ export default class Weather extends React.Component {
   constructor(props) {
     super(props);
     this.settings = this.props.settings;
-    this.country = this.props.country;
+    this.capital = this.props.capital;
     this.updateState = this.props.updateState.bind(this);
     this.stateCallback = this.stateCallback.bind(this);
-    this.weather = new GetWeather(this.settings.lang, this.country, this.stateCallback);
+    this.weather = new GetWeather(this.settings.lang, this.capital, this.stateCallback);
   }
 
   stateCallback() {
@@ -37,29 +37,7 @@ export default class Weather extends React.Component {
 }
 
 Weather.propTypes = {
-  country: PropTypes.shape({
-    countryCode: PropTypes.string,
-    currencyShortCode: PropTypes.string,
-    gallery: PropTypes.array,
-    map: PropTypes.shape({
-      borders: PropTypes.string,
-      geo: PropTypes.array,
-      zoom: PropTypes.number
-    }),
-    name: PropTypes.string,
-    poster: PropTypes.string,
-    src: PropTypes.string,
-    thumb: PropTypes.string,
-    timeZone: PropTypes.string,
-    translations: PropTypes.objectOf(PropTypes.shape({
-      capital: PropTypes.string,
-      country: PropTypes.string,
-      currencyName: PropTypes.string,
-      description: PropTypes.string
-    })),
-    url: PropTypes.string,
-    video: PropTypes.string
-  }),
+  capital: PropTypes.string,
   settings: PropTypes.shape({
     lang: PropTypes.string,
     search: PropTypes.string

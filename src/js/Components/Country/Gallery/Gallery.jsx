@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import ImageGallery from 'react-image-gallery';
 import './Gallery.scss';
 
@@ -15,3 +16,12 @@ export default function Gallery(props) {
     </div>
   )
 }
+
+Gallery.propTypes = {
+  images: PropTypes.array,
+  settings: PropTypes.shape({
+    lang: PropTypes.string,
+    search: PropTypes.string
+  }),
+  title: PropTypes.string,
+};

@@ -3,7 +3,11 @@
 .country__description {
   &-text {
     color: $color-blue;
-    font-size: $font-size-18;
+    font-size: $font-size-16;
     line-height: 1.5;
+  
+    @media (min-width: 768px) {
+      font-size: $font-size-18;
+    }
   }
 }

@@ -55,9 +55,9 @@ export default class DateAndTime extends React.Component {
 }
 
 DateAndTime.propTypes = {
-  timeZone: PropTypes.string,
   settings: PropTypes.shape({
     lang: PropTypes.string,
     search: PropTypes.string
-  })
+  }),
+  timeZone: PropTypes.string
 }
