@@ -3,9 +3,9 @@ const DIFFERENCEBETWEENKELVINANDCELSIUM = 273.15;
 const CURRENTWEATHERINDEX = 0;
 
 export default class GetWeather {
-  constructor(lang = DEFAULTLANGUAGE, country, updateState) {
+  constructor(lang = DEFAULTLANGUAGE, capital, updateState) {
     this.lang = lang;
-    this.capitalOnDefaultLanguage = country.translations[DEFAULTLANGUAGE].capital;
+    this.capitalOnDefaultLanguage = capital;
     this.updateState = updateState;
     this.updateWeather();
   }

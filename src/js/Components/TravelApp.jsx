@@ -17,7 +17,7 @@ export default class TravelApp extends React.Component {
   
   render () {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <ScrollToTop />
         <div className="wrapper">
           <Header settings={this.settings} updateState={this.updateState}/>

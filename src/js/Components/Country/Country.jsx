@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './Country.scss';
-import { COMMON } from '../../Data/data';
+import { COMMON, DEFAULTLANGUAGE } from '../../Data/data';
 import Hero from './Hero/Hero.jsx';
 import Description from './Description/Description.jsx';
 import Gallery from './Gallery/Gallery.jsx';
@@ -36,7 +36,7 @@ export default class Country extends React.Component {
           </div>
           <div className="country__widgets">
             <DateAndTime timeZone={this.country.timeZone} settings={this.settings} />
-            <Weather settings={this.settings} country={this.country} updateState = {this.updateState} />
+            <Weather settings={this.settings} capital={country.translations[DEFAULTLANGUAGE].capital} updateState={this.updateState} />
             <Currency settings={this.settings} country={this.country} updateState = {this.updateState} />
           </div>
         </div>

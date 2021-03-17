@@ -43,7 +43,24 @@ body {
 
 main {
   position: relative;
-  min-height: calc(100vh - 170px);
+  min-height: calc(100vh - 210px);
+
+  @media (min-width: 768px) {
+    &::before {
+      content: '';
+      position: absolute;
+      bottom: 325px;
+      right: 0;
+      z-index: -1;
+      width: 84vw;      
+      height: 44vw;
+      background-image: url('../../img/backgrounds/cloud-2.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position-y: bottom;
+      opacity: 0.5;
+    }
+  }
 }
 
 a {
