@@ -1,0 +1,39 @@
+@import '../../../../../css/base/variables.scss';
+
+.search {
+  text-align: center;
+
+  &__field {
+    max-width: 350px;
+    position: relative;
+    display: flex;
+    border: 2px solid $color-blue;
+    border-radius: 35px;
+    height: 40px;
+    color: $color-blue;
+    font-family: $font-family;
+    padding: 0 10px;
+    background-color: $color-white;
+  }
+
+  ::placeholder {
+    color: rgba($color: $color-blue, $alpha: 0.5);
+    font-family: $font-family;
+  }
+
+  button,
+  input {
+    background: none;
+    border: none;
+  }
+
+  .icon {
+    &-search {
+      color: $color-orange;
+    }
+
+    &-cancel {    
+      color: rgba($color: $color-blue, $alpha: 0.5)
+    }
+  }
+}

@@ -1,0 +1,12 @@
+@import '../../../../css/base/variables.scss';
+
+.country__map-container {
+  width: 100%;
+  height: 100vw;
+  border: 1px solid $color-light-blue;
+
+  @media (min-width: 768px) {
+    width: 100%;
+    height: 500px;
+  }
+}

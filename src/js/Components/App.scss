@@ -1,0 +1,72 @@
+@import '../../css/base/variables.scss';
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
+@import "~video-react/styles/scss/video-react";
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+  font-size: $font-size;
+  -ms-overflow-style: auto;
+  scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $color-orange;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  outline: none;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100%;
+  font-size: $font-size;
+  background-color: $color-white;
+  line-height: 1;
+  -webkit-font-smoothing: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: $font-family;
+}
+
+main {
+  position: relative;
+  min-height: calc(100vh - 210px);
+
+  @media (min-width: 768px) {
+    &::before {
+      content: '';
+      position: absolute;
+      bottom: 325px;
+      right: 0;
+      z-index: -1;
+      width: 84vw;      
+      height: 44vw;
+      background-image: url('../../img/backgrounds/cloud-2.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position-y: bottom;
+      opacity: 0.5;
+    }
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+strong {
+  font-weight: bold;
+}
